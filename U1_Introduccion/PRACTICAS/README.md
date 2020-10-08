@@ -1,2 +1,0 @@
-# Practicas_U1_INTRODUCCION
-
