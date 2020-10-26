@@ -22,7 +22,7 @@ public class ejercicio9_3 {
         System.out.println("   -Última letra: " + contrasena.charAt(contrasena.length() - 1));   //Muestro el último caracter de la cadena establecida en la variable "contrasena".
         System.out.println(" ");                                                                //"contrasena" valdrá lo que el usuario escriba.
 
-        System.out.println("El Segundo Jugador deber Adivinar la contraseña. Puedes tener en cuenta las pistas anteriores:");
+        System.out.println("El Segundo Jugador deber Adivinar la contraseña:");
         adivinar = sc.nextLine();
         System.out.println(" ");   //Salto de línea
 
