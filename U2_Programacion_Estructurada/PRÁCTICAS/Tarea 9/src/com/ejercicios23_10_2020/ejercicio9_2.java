@@ -8,7 +8,7 @@ public class ejercicio9_2 {
         String contrasena, adivinar;
 
         System.out.println(" -------------------------------- ");   //
-        System.out.println(" ----- ACIERTA LA CONTASEÑA ----- ");   //Estética de cara al Usuario
+        System.out.println(" ----- ACIERTA LA CONTASEÑA ----- ");   //Estética de cara al Usuario.
         System.out.println(" -------------------------------- ");   //
         System.out.println(" ");   //Salto de línea,
 
