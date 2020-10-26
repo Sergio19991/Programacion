@@ -20,7 +20,7 @@ public class ejercicio9_2 {
         System.out.println("   -Número de Caracteres: " + contrasena.length());   //Muestro la longitud de la cadena.
         System.out.println("   -Primera letra: " + contrasena.charAt(0));   //Muestro el primer caracter de la cadena establecida con la vairable "contrasena".
         System.out.println("   -Última letra: " + contrasena.charAt(contrasena.length()-1));   //Muestro el último caracter de la cadena establecida en la variable "contrasena".
-        System.out.println("");                                                                //"contrasena" valdrá lo que el usuario escriba.
+        System.out.println(" ");                                                                //"contrasena" valdrá lo que el usuario escriba.
 
         System.out.println("El Segundo Jugador deber Adivinar la contraseña. Puedes tener en cuenta las pistas anteriores:");
         adivinar = sc.nextLine();
