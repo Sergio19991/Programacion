@@ -9,6 +9,11 @@ public class ejercicio9_4 {
 
         System.out.println("Introduce una Frase:");
         frase = sc.nextLine();
+
+        if (frase.charAt((int)Math.floor(frase.length()/2))==' ') {
+            System.out.println("El Carácter del centro es un Espacio.");
+        } else {
+            System.out.println("El Carácter del centro no es un Espacio.");
+        }
     }
 }
-
