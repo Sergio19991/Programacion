@@ -10,22 +10,22 @@ public class Ej5 {
         System.out.println("Introduce la Altura del Rombo;");
         altura = sc.nextInt();
 
-        num_espacios = (altura-1)/2;
+        num_espacios = (altura - 1) / 2;
 
-        for (i=0 ; i<altura ; i++) {
+        for (i = 0; i < altura; i++) {
 
             //Imprimir espacios
-            for (j=0 ; j<num_espacios ; j++) {
+            for (j = 0; j < num_espacios; j++) {
                 System.out.print(" ");
             }
 
             //Imprimir X
-            for (j=0 ; j<altura-2*num_espacios ; j++) {
+            for (j = 0; j < altura - 2 * num_espacios; j++) {
                 System.out.print("*");
             }
             System.out.println("");
 
-            if (i<altura/2) {
+            if (i < altura / 2) {
                 //Primer mitad.
                 num_espacios--;
             } else {
