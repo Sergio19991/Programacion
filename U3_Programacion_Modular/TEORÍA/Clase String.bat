@@ -1,0 +1,1 @@
+start http://puntocomnoesunlenguaje.blogspot.com/2013/02/clase-string.html
