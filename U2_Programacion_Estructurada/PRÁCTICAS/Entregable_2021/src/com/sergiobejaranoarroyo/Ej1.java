@@ -10,13 +10,13 @@ public class Ej1 {
         System.out.println("Introduce la Altura de los Calcetines:");
         altura = sc.nextInt();
 
-        while (altura<4) {
+        while (altura < 4) {
             System.out.println("La Altura debe ser Mayor o Igual a 4.");
             System.out.println("Introduce la Altura de los Calcetines:");
             altura = sc.nextInt();
         }
 
-        for (i=0 ; i<altura-2 ; i++) {
+        for (i = 0; i < altura - 2; i++) {
             System.out.println("***  ***");
         }
         System.out.println("******  ******");
