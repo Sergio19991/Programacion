@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="00c75559-70a7-4927-ab1f-38c3d69b7dcf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Entregable_2021/com/sergiobejaranoarroyo/Ej2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Entregable_2021/com/sergiobejaranoarroyo/Ej2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Entregable_2021/com/sergiobejaranoarroyo/Ej3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Entregable_2021/com/sergiobejaranoarroyo/Ej3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Entregable_2021/com/sergiobejaranoarroyo/Ej4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Entregable_2021/com/sergiobejaranoarroyo/Ej4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Ej1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Ej2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Ej2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Ej3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Ej3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Ej4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Ej4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Funciones/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U3_Programacion_Modular/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U3_Programacion_Modular/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +28,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../U3_Programacion_Modular/PRACTICAS/Funciones" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Ej4">
+  <component name="RunManager" selected="Application.Ej2">
     <configuration name="Ej1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sergiobejaranoarroyo.Ej1" />
       <module name="Entregable_2021" />
@@ -111,9 +102,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ej2" />
         <item itemvalue="Application.Ej4" />
         <item itemvalue="Application.Ej3" />
-        <item itemvalue="Application.Ej2" />
         <item itemvalue="Application.Ej1" />
         <item itemvalue="Application.Main" />
       </list>
@@ -136,26 +127,26 @@
     </state>
     <state x="648" y="124" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604424191979" />
     <state x="461" y="107" width="424" height="520" key="FileChooserDialogImpl/0.27.1366.673@0.27.1366.673" timestamp="1604404990156" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1604424000942">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1320" height="150" key="GridCell.Tab.0.bottom" timestamp="1604560127370">
+      <screen x="0" y="27" width="1366" height="673" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604424000942" />
-    <state width="1320" height="150" key="GridCell.Tab.0.bottom/0.27.1366.673@0.27.1366.673" timestamp="1604405037319" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1604424000942">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1320" height="150" key="GridCell.Tab.0.bottom/0.27.1366.673@0.27.1366.673" timestamp="1604560127370" />
+    <state width="1320" height="150" key="GridCell.Tab.0.center" timestamp="1604560127369">
+      <screen x="0" y="27" width="1366" height="673" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604424000942" />
-    <state width="1320" height="150" key="GridCell.Tab.0.center/0.27.1366.673@0.27.1366.673" timestamp="1604405037319" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1604424000942">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1320" height="150" key="GridCell.Tab.0.center/0.27.1366.673@0.27.1366.673" timestamp="1604560127369" />
+    <state width="1320" height="150" key="GridCell.Tab.0.left" timestamp="1604560127369">
+      <screen x="0" y="27" width="1366" height="673" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604424000942" />
-    <state width="1320" height="150" key="GridCell.Tab.0.left/0.27.1366.673@0.27.1366.673" timestamp="1604405037319" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1604424000942">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1320" height="150" key="GridCell.Tab.0.left/0.27.1366.673@0.27.1366.673" timestamp="1604560127369" />
+    <state width="1320" height="150" key="GridCell.Tab.0.right" timestamp="1604560127369">
+      <screen x="0" y="27" width="1366" height="673" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604424000942" />
-    <state width="1320" height="150" key="GridCell.Tab.0.right/0.27.1366.673@0.27.1366.673" timestamp="1604405037319" />
+    <state width="1320" height="150" key="GridCell.Tab.0.right/0.27.1366.673@0.27.1366.673" timestamp="1604560127369" />
     <state x="0" y="27" width="1356" height="673" key="new project wizard" timestamp="1604405029660">
       <screen x="0" y="27" width="1366" height="673" />
     </state>
