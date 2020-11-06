@@ -7,23 +7,20 @@ public class Ejercicio1_12 {
         Scanner sc = new Scanner(System.in);
         int num;
 
-        System.out.println("Introduce un Número:");
+        System.out.println("Introduce el entero");
         num = sc.nextInt();
 
-        System.out.println(" ");
+        System.out.println("El factorial de " + num + " es " + factorial(num));
 
-        System.out.println(num + " no es igual a " + factorial(num));
     }
 
-    public static int factorial(int num) {
-        int resto;
+    public static int factorial(int n) {
+        int factorial = 1;
 
-        if (num == 0) {
-            resto = 1;
-        } else {
-            resto = num * factorial(num - 1);
+        for (int i = 1; i <= n; i++) {
+            factorial = factorial * i;
         }
-        return (resto);
-    }
 
+        return factorial;
+    }
 }

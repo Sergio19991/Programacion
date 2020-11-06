@@ -5,39 +5,42 @@ import java.util.Scanner;
 public class Ejercicio1_10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num1, num2;
+        int n1, n2;
 
-        System.out.println("Introduce el Primer Número:");
-        num1 = sc.nextInt();
-        System.out.println("Introduce el Segundo Número:");
-        num2 = sc.nextInt();
 
-        if (amigos(num1, num2)) {
-            System.out.println(num1 + " y " + num2 + " son amigos.");
+        System.out.println("Introduce el primer número");
+        n1 = sc.nextInt();
+
+        System.out.println("Introduce el segundo número");
+        n2 = sc.nextInt();
+
+        if (sonAmigos(n1, n2)) {
+            System.out.println("SON AMIGOS");
         } else {
-            System.out.println("No son amigos.");
+            System.out.println("SON ENEMIGOS");
         }
+
     }
 
-    public static boolean amigos(int num1, int num2) {
-        boolean amigos;
+    public static boolean sonAmigos(int n1, int n2) {
+        int suma1 = 0;
+        int suma2 = 0;
 
-        if (num1 == sumaDivisoresPropios(num2) && num2 == sumaDivisoresPropios(num1)) {
-            amigos = true;
-        } else {
-            amigos = false;
-        }
-        return amigos;
-    }
-
-    public static int sumaDivisoresPropios(int num) {
-        int suma = 0;
-        for (int i = 1; i < num; i++) {
-            if (num % i == 0) {
-                suma += i;
+        for (int i = 1; i < n1; i++) {
+            if (n1 % i == 0) {
+                suma1 += i;
             }
         }
-        return (suma);
-    }
 
+        for (int i = 1; i < n2; i++) {
+            if (n2 % i == 0) {
+                suma2 += i;
+            }
+        }
+
+        if (n1 == suma2 && n2 == suma1) {
+            return true;
+        }
+        return false;
+    }
 }

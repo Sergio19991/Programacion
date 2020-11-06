@@ -6,46 +6,32 @@ import java.util.Scanner;
 public class Ejercicio1_11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
+        double a;
+        int n;
 
-        System.out.println("Introduce la Base:");
-        double base = sc.nextDouble();
-        System.out.println("Introduce el Exponente:");
-        int exp = sc.nextInt();
+        System.out.println("Introduce la base");
+        a = sc.nextDouble();
 
-        double res = aElevadoN(base, exp);
-        System.out.println(base + " elevado a " + exp + " = " + res);   //Solución Iterativa.
-        /**System.out.println("El resultado es " + aElevadoN(base, exp));**/   //Solución Recursiva.
+        System.out.println("Introduce el exponente");
+        n = sc.nextInt();
+
+        System.out.println("La potencia es " + potencia(a, n));
+
+        System.out.println("La potencia es " + potenciaMath(a, n));
+
     }
 
-    /**
-     * SOLUCIÓN ITERATIVA
-     **/
-    static double aElevadoN(double a, int n) {
-        double res = 1;
+    public static double potencia(double a, int n) {
+        double resultado = 1;
 
-        if (n == 0) {
-            res = 1;
-        } else {
-            for (int i = 1; i <= n; i++) {
-                res = res * a;
-            }
+        for (int i = 0; i < n; i++) {
+            resultado = resultado * a;
         }
-        return (res);
+
+        return resultado;
     }
 
-    /**
-     * SOLUCIÓN RECURSIVA
-     ***/
-    /**static double aElevadoN(double a, int n) {
-        double res;
-
-        if (n == 0) {
-            res = 1;
-        } else {
-            res = a * aElevadoN(a, n - 1);
-        }
-        return (res);
-    }**/
-
+    public static double potenciaMath(double a, int n) {
+        return Math.pow(a, n);
+    }
 }
