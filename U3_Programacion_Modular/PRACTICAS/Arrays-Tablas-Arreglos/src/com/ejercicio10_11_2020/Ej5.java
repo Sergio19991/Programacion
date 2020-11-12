@@ -25,9 +25,9 @@ public class Ej5 {
                 }
             }
             if (esta) {
-                System.out.println("El Número SÍ está.");
+                System.out.println("El Número " + num + " SÍ está.");
             } else {
-                System.out.println("El Número No está.");
+                System.out.println("El Número "  + num + " No está.");
             }
         } while (num != -1);
     }
