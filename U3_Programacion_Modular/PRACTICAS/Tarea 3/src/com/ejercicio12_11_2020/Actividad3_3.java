@@ -24,14 +24,10 @@ public class Actividad3_3 {
             if (numeros[i] < 0) {   //Todos los Números Negativos.
                 contador_negativos++;
                 suma_negativos = suma_negativos + numeros[i];
-            }
-
-            if (numeros[i] > 0) {   //Todos los Números Positivos.
+            } else if (numeros[i] > 0) {   //Todos los Números Positivos.
                 contador_positivos++;
                 suma_positivos = suma_positivos + numeros[i];
-            }
-
-            if (numeros[i] == 0) {   //Todos los Ceros.
+            } else {   //Todos los Ceros.
                 contador_ceros++;
             }
         }

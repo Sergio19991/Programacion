@@ -11,7 +11,7 @@ public class Actividad3_2 {
         System.out.println("¿Cuántos Números quiéres introducir?:");
         cantidad_numeros = sc.nextInt();
 
-        int numeros[] = new int[cantidad_numeros];
+        int[] numeros = new int[cantidad_numeros];
 
         for (i = 0; i < numeros.length; i++) {
             System.out.println("Introduce un Número:");
@@ -19,7 +19,7 @@ public class Actividad3_2 {
         }
 
         for (i = numeros.length - 1; i >= 0; i--) {
-            System.out.println("Los Números en Orden Inverso, son " + numeros[i]);
+            System.out.print(numeros[i] + " ");
         }
     }
 }
