@@ -1,4 +1,4 @@
-package com.ejercicio13_11_2020;
+package com.ejercicio10_11_2020.ejercicio13_11_2020;
 
 public class BuscaMinas {
     public static int buscaminas(int fila, int col, char[][] tablero) {

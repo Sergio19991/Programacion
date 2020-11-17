@@ -1,4 +1,4 @@
-package com.ejercicio13_11_2020;
+package com.ejercicio10_11_2020.ejercicio13_11_2020;
 
 import java.util.Arrays;
 import java.util.Scanner;
