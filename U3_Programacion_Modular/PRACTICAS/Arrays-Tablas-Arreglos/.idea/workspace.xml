@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="666d48dc-f6e2-470a-9521-9cb3eafa7f40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/ejercicio10_11_2020/ejercicios17_11_2020/añadir_arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ejercicio10_11_2020/ejercicios17_11_2020/insertarFinalyPrincipio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ejercicio10_11_2020/ejercicios17_11_2020/insertar_en_orden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ejercicio10_11_2020/ejercicios17_11_2020/quitar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ejercicio10_11_2020/ejercicios17_11_2020/tarea7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ejercicio13_11_2020/BuscaMinas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ejercicio10_11_2020/ejercicio13_11_2020/BuscaMinas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ejercicio13_11_2020/Ej4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ejercicio10_11_2020/ejercicio13_11_2020/Ej4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ejercicio13_11_2020/SumaFilasColumnas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ejercicio10_11_2020/ejercicio13_11_2020/SumaFilasColumnas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/ENUNCIADOS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/Tarea 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/out/production/Tarea 1/com/ejercicios03_11_2020/Ejercicio1_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/src/com/ejercicios03_11_2020/Ejercicio1_9.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1kEjCDO7MAAEwAQt9TJsjxUbogz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tarea 1" />
+  </component>
+  <component name="RunManager" selected="Application.insertar_en_orden">
+    <configuration name="Vectores_Llenos_o_Vacios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ejercicio13_11_2020.Vectores_Llenos_o_Vacios" />
+      <module name="Arrays-Tablas-Arreglos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejercicio10_11_2020.ejercicio13_11_2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="añadir_arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ejercicio10_11_2020.ejercicios17_11_2020.añadir_arrays" />
+      <module name="Arrays-Tablas-Arreglos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejercicio10_11_2020.ejercicios17_11_2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="insertar_en_orden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ejercicio10_11_2020.ejercicios17_11_2020.insertar_en_orden" />
+      <module name="Arrays-Tablas-Arreglos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejercicio10_11_2020.ejercicios17_11_2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quitar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ejercicio10_11_2020.ejercicios17_11_2020.quitar" />
+      <module name="Arrays-Tablas-Arreglos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejercicio10_11_2020.ejercicios17_11_2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.insertar_en_orden" />
+        <item itemvalue="Application.añadir_arrays" />
+        <item itemvalue="Application.quitar" />
+        <item itemvalue="Application.Vectores_Llenos_o_Vacios" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="666d48dc-f6e2-470a-9521-9cb3eafa7f40" name="Default Changelist" comment="" />
+      <created>1605272515087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605272515087</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="121" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605616359258">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state x="466" y="121" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.673@0.27.1366.673" timestamp="1605616359258" />
+    <state width="1320" height="150" key="GridCell.Tab.0.bottom" timestamp="1605617821725">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state width="1320" height="150" key="GridCell.Tab.0.bottom/0.27.1366.673@0.27.1366.673" timestamp="1605617821725" />
+    <state width="1320" height="150" key="GridCell.Tab.0.center" timestamp="1605617821724">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state width="1320" height="150" key="GridCell.Tab.0.center/0.27.1366.673@0.27.1366.673" timestamp="1605617821724" />
+    <state width="1320" height="150" key="GridCell.Tab.0.left" timestamp="1605617821723">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state width="1320" height="150" key="GridCell.Tab.0.left/0.27.1366.673@0.27.1366.673" timestamp="1605617821723" />
+    <state width="1320" height="150" key="GridCell.Tab.0.right" timestamp="1605617821724">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state width="1320" height="150" key="GridCell.Tab.0.right/0.27.1366.673@0.27.1366.673" timestamp="1605617821724" />
+    <state x="-682" y="223" width="956" height="629" key="dock-window-1" timestamp="1605613198776">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state x="-682" y="223" width="956" height="629" key="dock-window-1/0.27.1366.673@0.27.1366.673" timestamp="1605613198776" />
+    <state x="-766" y="368" width="1059" height="629" key="dock-window-2" timestamp="1605614088615">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state x="-766" y="368" width="1059" height="629" key="dock-window-2/0.27.1366.673@0.27.1366.673" timestamp="1605614088615" />
+    <state x="-487" y="236" width="780" height="599" key="dock-window-3" timestamp="1605615422455">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state x="-487" y="236" width="780" height="599" key="dock-window-3/0.27.1366.673@0.27.1366.673" timestamp="1605615422455" />
+    <state x="277" y="27" width="802" height="673" key="new project wizard" timestamp="1605616323812">
+      <screen x="0" y="27" width="1366" height="673" />
+    </state>
+    <state x="277" y="27" width="802" height="673" key="new project wizard/0.27.1366.673@0.27.1366.673" timestamp="1605616323812" />
+  </component>
+</project>
