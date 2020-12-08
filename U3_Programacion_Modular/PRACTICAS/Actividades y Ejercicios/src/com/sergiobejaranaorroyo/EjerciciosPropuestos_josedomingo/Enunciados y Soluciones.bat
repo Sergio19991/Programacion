@@ -1,1 +1,0 @@
-start https://plataforma.josedomingo.org/pledin/cursos/programacion/curso/u29/
