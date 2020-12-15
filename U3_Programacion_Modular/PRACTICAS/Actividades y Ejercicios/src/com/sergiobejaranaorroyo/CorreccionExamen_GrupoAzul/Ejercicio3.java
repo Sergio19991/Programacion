@@ -1,18 +1,20 @@
 package com.sergiobejaranaorroyo.CorreccionExamen_GrupoAzul;
 
+import java.util.Arrays;
+
 public class Ejercicio3 {
     public static void main(String[] args) {
-
+        System.out.println(jaque("a", "5"));
     }
 
     public static boolean jaque(String posRey, String posReina) {
         String[][] tablero = new String[8][8];
         int[] filas = {8, 7, 6, 5, 4, 3, 2, 1,};
         String[] columnas = {"a", "b", "c", "d", "f", "g", "h"};
-        int filaR=0;
-        int colR=0;
-        int filaRey=0;
-        int colRey=0;
+        int filaR = 0;
+        int colR = 0;
+        int filaRey = 0;
+        int colRey = 0;
 
         for (int i = 0; i < filas.length; i++) {
             if (filas[i] == Integer.valueOf(posReina.charAt(1))) {
@@ -27,14 +29,14 @@ public class Ejercicio3 {
         }
 
         for (int i = 0; i < columnas.length; i++) {
-            if (columnas[i].charAt(0)==posRey.charAt(0)) {
-                colR=i;
+            if (columnas[i].charAt(0) == posRey.charAt(0)) {
+                colR = i;
             }
         }
 
         for (int i = 0; i < columnas.length; i++) {
-            if (columnas[i].charAt(0)==posRey.charAt(0)) {
-                colRey=i;
+            if (columnas[i].charAt(0) == posRey.charAt(0)) {
+                colRey = i;
             }
         }
 
