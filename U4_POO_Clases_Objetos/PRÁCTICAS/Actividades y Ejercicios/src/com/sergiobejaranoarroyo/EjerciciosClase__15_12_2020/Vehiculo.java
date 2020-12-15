@@ -4,6 +4,10 @@ public class Vehiculo {
     String marca;
     String modelo;
     String matricula;
-    byte cilindrada;
+    int cilindrada;
     String color;
+
+    public void decirColor() {
+        System.out.println("El color de este Vehiculo, es el " + color);
+    }
 }

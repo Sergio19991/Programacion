@@ -1,9 +1,9 @@
 package com.sergiobejaranoarroyo;
 
 public class Persona {
-    private String nombre = "Pepe";
-    private byte edad = 20;
-    private double estatura = 181.2;
+    String nombre = "Pepe";
+    byte edad = 20;
+    double estatura = 181.2;
 
     public boolean esViejo() {
         if (edad > 18) {
