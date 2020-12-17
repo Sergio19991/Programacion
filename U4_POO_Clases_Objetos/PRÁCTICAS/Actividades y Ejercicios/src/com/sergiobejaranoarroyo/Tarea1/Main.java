@@ -16,7 +16,6 @@ public class Main {
 
         System.out.println("Puedo sacar 700€: " + c.egreso(700));
         System.out.println("Puedo sacar 500€: " + c.egreso(500));
-
         System.out.println(" ");
 
 
@@ -32,7 +31,6 @@ public class Main {
         c1.mostrarInformacion();
         c2.mostrarInformacion();
         c3.mostrarInformacion();
-
         System.out.println(" ");
 
 
@@ -44,5 +42,22 @@ public class Main {
         //c.saldo=2000;
         c.dni = "11111111-T";
         //c.limite=-100;
+        System.out.println(" ");
+
+
+        System.out.println("* * * * * * * *");
+        System.out.println("* ACTIVIDAD 4 *");
+        System.out.println("* * * * * * * *");
+        c1 = new CuentaCorriente("Pepe", "12345678-A");
+        c2 = new CuentaCorriente("Ana", "999999999-E");
+
+        c1.mostrarInformacion();
+        c2.nombreBanco = "Banco Central";
+        c1.mostrarInformacion();
+        CuentaCorriente.nombreBanco = "Caixa";
+        c1.mostrarInformacion();
+        CuentaCorriente.cambiarNombreBanco("Caja Rural");
+        c1.mostrarInformacion();
+        System.out.println(" ");
     }
 }

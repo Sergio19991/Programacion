@@ -1,10 +1,14 @@
 package com.sergiobejaranoarroyo.Tarea1;
 
 public class CuentaCorriente {
-    private double saldo;
-    public String nombre;
-    String dni;
-    private double limite;
+    /**
+     * ACTIVIDAD 1
+     **/
+    private double saldo;   //ACTIVIDAD 3
+    public String nombre;   //ACTIVIDAD 3
+    String dni;   // ACTIVIDAD 3
+    private double limite;   // ACTIVIDAD 3
+    static String nombreBanco = "BBVA";   // ACTIVIDAD 4
 
     public CuentaCorriente(String nombre, String dni) {
         saldo = 0;
@@ -36,8 +40,12 @@ public class CuentaCorriente {
         System.out.println("DNI: " + dni);
         System.out.println("SALDO: " + saldo);
         System.out.println("LÍMITE DESCUBIERTO: " + limite);
+        System.out.println("BANCO: " + nombreBanco);
     }
 
+    /**
+     * ACTIVIDAD 2
+     **/
     public CuentaCorriente(double saldo) {
         this.saldo = 0;
         this.nombre = "Sin asignar";
@@ -50,5 +58,13 @@ public class CuentaCorriente {
         this.dni = dni;
         this.limite = limite;
         this.nombre = "Sin asignar";
+    }
+
+
+    /**
+     * ACTIVIDAD 4
+     **/
+    static void cambiarNombreBanco(String nuevoNombre) {
+        nombreBanco = nuevoNombre;
     }
 }
