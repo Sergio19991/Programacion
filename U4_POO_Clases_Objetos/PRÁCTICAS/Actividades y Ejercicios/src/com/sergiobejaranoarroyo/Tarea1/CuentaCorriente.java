@@ -1,10 +1,10 @@
 package com.sergiobejaranoarroyo.Tarea1;
 
 public class CuentaCorriente {
-    double saldo;
-    String nombre;
+    private double saldo;
+    public String nombre;
     String dni;
-    double limite;
+    private double limite;
 
     public CuentaCorriente(String nombre, String dni) {
         saldo = 0;

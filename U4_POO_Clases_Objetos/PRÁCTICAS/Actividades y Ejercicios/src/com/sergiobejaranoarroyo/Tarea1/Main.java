@@ -8,7 +8,7 @@ public class Main {
         CuentaCorriente c;
         c = new CuentaCorriente("Pepe", "12345678A");
 
-        c.limite = -100;
+        //c.limite = -100;
 
         c.ingreso(1000);
         c.egreso(300);
@@ -34,5 +34,15 @@ public class Main {
         c3.mostrarInformacion();
 
         System.out.println(" ");
+
+
+        System.out.println("* * * * * * * *");
+        System.out.println("* ACTIVIDAD 3 *");
+        System.out.println("* * * * * * * *");
+        c = new CuentaCorriente("Pepe", "12345678-A");
+
+        //c.saldo=2000;
+        c.dni = "11111111-T";
+        //c.limite=-100;
     }
 }
