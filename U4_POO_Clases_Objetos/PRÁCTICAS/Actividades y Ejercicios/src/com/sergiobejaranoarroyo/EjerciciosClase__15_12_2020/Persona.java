@@ -6,6 +6,21 @@ public class Persona {
     double estatura;
     int telefono;
     String dni;
+    static int numPersonas = 0;
+
+    public Persona(String nombre, byte edad, double estatura) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.estatura = estatura;
+    }
+
+    public Persona() {
+        this("", (byte) 18, 180);
+    }
+
+    public Persona(String nombre, double estatura) {
+        this(nombre, (byte) 18, estatura);
+    }
 
     @Override
     public String toString() {
@@ -19,6 +34,8 @@ public class Persona {
     }
 
     public boolean esViejo() {
+        int edad = 5;
+
         if (edad > 18) {
             return true;
         }
@@ -36,5 +53,9 @@ public class Persona {
 
     public void crecer(double incremento) {
         System.out.println(estatura += incremento);
+    }
+
+    public static int numPersonasCreadas() {
+        return numPersonas;
     }
 }

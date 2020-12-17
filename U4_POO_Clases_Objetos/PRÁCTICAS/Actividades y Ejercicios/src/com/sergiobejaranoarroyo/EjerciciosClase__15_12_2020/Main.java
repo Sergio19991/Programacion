@@ -2,9 +2,12 @@ package com.sergiobejaranoarroyo.EjerciciosClase__15_12_2020;
 
 public class Main {
     public static void main(String[] args) {
-        Persona alumno = new Persona();
+        Persona alumno = new Persona("Pepe", (byte) 23, 1.75);
+        Persona.numPersonas++;
         Persona profesor = new Persona();
+        Persona.numPersonas++;
         Persona director = new Persona();
+        Persona.numPersonas++;
 
         Vehiculo moto = new Vehiculo();
         Vehiculo coche = new Vehiculo();
@@ -63,6 +66,7 @@ public class Main {
         System.out.println(profesor.esViejo());
         alumno.cumplirAnos();
         director.crecer(3);
+        System.out.println("El Número de Personas creadas, es " + Persona.numPersonas + ".");
 
         coche.decirColor();
     }
