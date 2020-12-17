@@ -9,6 +9,7 @@ public class CuentaCorriente {
     String dni;   // ACTIVIDAD 3
     private double limite;   // ACTIVIDAD 3
     static String nombreBanco = "BBVA";   // ACTIVIDAD 4
+    Banco banco;   //ACTIVIDAD 6
 
     public CuentaCorriente(String nombre, String dni) {
         saldo = 0;
@@ -66,5 +67,34 @@ public class CuentaCorriente {
      **/
     static void cambiarNombreBanco(String nuevoNombre) {
         nombreBanco = nuevoNombre;
+    }
+
+    /**
+     * ACTIVIDAD 6
+     **/
+
+    CuentaCorriente(String nombre, String dni, Banco banco) {
+        this(0, dni, -50);
+        this.nombre = nombre;
+        this.banco = banco;
+    }
+
+    void cambiarBanco(Banco banco) {
+        this.banco = banco;
+    }
+
+    void mostrarInformacionBanco() {
+        System.out.println("Información del Banco.");
+        if (banco == null) {
+            System.out.println("Cuenta no asociada a ningún Banco.");
+        } else {
+            banco.mostrarInformacion();
+        }
+
+        System.out.println("Información de la Cuenta.");
+        System.out.println("TITULAR: " + nombre);
+        System.out.println("DNI: " + dni);
+        System.out.println("SALDO: " + saldo);
+        System.out.println("LÍMITE: " + limite);
     }
 }

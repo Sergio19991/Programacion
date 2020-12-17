@@ -62,7 +62,7 @@ public class Main {
 
 
         System.out.println("* * * * * * * *");
-        System.out.println("* ACTIVIDAD 4 *");
+        System.out.println("* ACTIVIDAD 5 *");
         System.out.println("* * * * * * * *");
         Texto t = new Texto(5);
 
@@ -73,6 +73,26 @@ public class Main {
 
         t.mostrar();
         System.out.println("Número de Vocales: " + t.numVocales());
+        System.out.println(" ");
+
+
+        System.out.println("* * * * * * * *");
+        System.out.println("* ACTIVIDAD 6 *");
+        System.out.println("* * * * * * * *");
+        Banco b1, b2;
+
+        b1 = new Banco("EVO");
+        b2 = new Banco("Santander", 10.6, "c/Lanjarón s/n");
+
+        c1 = new CuentaCorriente("Pepita", "12345678-L", b1);
+        c2 = new CuentaCorriente("Ana", "98765431-F", b1);
+        c1.mostrarInformacionBanco();
+        c2.mostrarInformacionBanco();
+
+        c3 = new CuentaCorriente("Luis", "11223344-G");
+        c3.mostrarInformacion();
+        c3.cambiarBanco(b2);
+        c3.mostrarInformacionBanco();
         System.out.println(" ");
     }
 }
