@@ -59,5 +59,20 @@ public class Main {
         CuentaCorriente.cambiarNombreBanco("Caja Rural");
         c1.mostrarInformacion();
         System.out.println(" ");
+
+
+        System.out.println("* * * * * * * *");
+        System.out.println("* ACTIVIDAD 4 *");
+        System.out.println("* * * * * * * *");
+        Texto t = new Texto(5);
+
+        t.addPrincipio("HO");
+        t.addPrincipio(';');
+        t.add("Lá");
+        t.add('X');
+
+        t.mostrar();
+        System.out.println("Número de Vocales: " + t.numVocales());
+        System.out.println(" ");
     }
 }
