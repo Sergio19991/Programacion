@@ -1,63 +1,40 @@
 package com.sergiobejaranoarroyo.Tarea1;
 
 public class CuentaCorriente {
-    private double saldo;
-    private double limiteDescubrimiento;
-    public String nombre;
+    double saldo;
+    String nombre;
     String dni;
-    static String nombreBanco;
+    double limite;
 
-    /**
-     * ACTIVIDAD 1:
-     **/
     public CuentaCorriente(String nombre, String dni) {
+        saldo = 0;
         this.nombre = nombre;
         this.dni = dni;
-        this.saldo = 0;
-        this.limiteDescubrimiento = -50;
+        limite = -50;
     }
 
-    public boolean sacarDinero(double cantidad) {
-        if ((this.saldo - cantidad) > this.limiteDescubrimiento) {
-            this.saldo -= cantidad;
-            return true;
+    boolean egreso(double cant) {
+        boolean operacionPosible;
+
+        if ((saldo - cant) >= limite) {
+            saldo -= cant;
+            operacionPosible = true;
         } else {
-            System.out.println("Operación no permitida.");
-            return false;
+            System.out.println("No hay dinero suficiente.");
+            operacionPosible = false;
         }
+
+        return (operacionPosible);
     }
 
-    public void ingresarDinero(double cantidad) {
-        this.saldo += cantidad;
+    void ingreso(double cant) {
+        saldo += cant;
     }
 
-    public void mostrarInformacion() {
-        System.out.println("Entidad " + CuentaCorriente.nombreBanco);
-        System.out.println("Titular: " + this.nombre);
-        System.out.println("DNI: " + this.dni);
-        System.out.println("Saldo: " + this.saldo);
-    }
-
-
-    /**
-     * ACTIVIDAD 2:
-     **/
-    public CuentaCorriente(double saldo) {
-        this.saldo = saldo;
-        this.nombre = " ";
-        this.dni = " ";
-        this.limiteDescubrimiento = 0;
-    }
-
-    public CuentaCorriente(double saldo, double limiteDescubrimiento, String dni) {
-        this.saldo = saldo;
-        this.limiteDescubrimiento = limiteDescubrimiento;
-        this.dni = dni;
-    }
-
-
-    /**  ACTIVIDAD 4: **/
-    public static void compraBanco(String bancoNuevo) {
-        nombreBanco=bancoNuevo;
+    void mostrarInformacion() {
+        System.out.println("NOMBRE: " + nombre);
+        System.out.println("DNI: " + dni);
+        System.out.println("SALDO: " + saldo);
+        System.out.println("LÍMITE DESCUBIERTO: " + limite);
     }
 }

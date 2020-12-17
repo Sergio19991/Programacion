@@ -2,37 +2,16 @@ package com.sergiobejaranoarroyo.Tarea1;
 
 public class Main {
     public static void main(String[] args) {
-        /** ACTIVIDAD 1: */
-        CuentaCorriente c1 = new CuentaCorriente("Pepe Pérez", "22222X");
-        CuentaCorriente c2 = new CuentaCorriente("Rosa López", "333333333X");
+        CuentaCorriente c;
+        c = new CuentaCorriente("Pepe", "12345678A");
 
+        c.limite = -100;
 
-        /** ACTIVIDAD 2: **/
-        CuentaCorriente c3 = new CuentaCorriente(100);
-        CuentaCorriente c4 = new CuentaCorriente(500, -100, "8456755G");
+        c.ingreso(1000);
+        c.egreso(300);
+        c.mostrarInformacion();
 
-
-        /** ACTIVIDAD 1: **/
-        c1.ingresarDinero(100);
-        c2.ingresarDinero(200);
-
-        c1.sacarDinero(50);
-        c1.sacarDinero(300);
-
-        c1.mostrarInformacion();
-        c2.mostrarInformacion();
-
-
-        /** ACTIVIDAD 4: **/
-        CuentaCorriente.nombreBanco="Bankia";
-        c1.mostrarInformacion();
-        c2.mostrarInformacion();
-        c3.mostrarInformacion();
-        c4.mostrarInformacion();
-
-        /** ACTIVIDAD 5: **/
-        Texto t = new Texto(3);
-        t.anadirFinal('a');
-        t.anadirPrincipio('c');
+        System.out.println("Puedo sacar 700€: " + c.egreso(700));
+        System.out.println("Puedo sacar 500€: " + c.egreso(500));
     }
 }
