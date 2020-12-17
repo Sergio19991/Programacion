@@ -37,4 +37,18 @@ public class CuentaCorriente {
         System.out.println("SALDO: " + saldo);
         System.out.println("LÍMITE DESCUBIERTO: " + limite);
     }
+
+    public CuentaCorriente(double saldo) {
+        this.saldo = 0;
+        this.nombre = "Sin asignar";
+        this.dni = "Sin asignar";
+        this.limite = 0;
+    }
+
+    public CuentaCorriente(double saldo, String dni, double limite) {
+        this.saldo = saldo;
+        this.dni = dni;
+        this.limite = limite;
+        this.nombre = "Sin asignar";
+    }
 }
