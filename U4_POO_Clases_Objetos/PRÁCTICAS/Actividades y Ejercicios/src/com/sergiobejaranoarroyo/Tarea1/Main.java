@@ -94,5 +94,25 @@ public class Main {
         c3.cambiarBanco(b2);
         c3.mostrarInformacionBanco();
         System.out.println(" ");
+
+
+        System.out.println("* * * * * * * *");
+        System.out.println("* ACTIVIDAD 7 *");
+        System.out.println("* * * * * * * *");
+        SintonizadorFM a = new SintonizadorFM(107);
+        a.subir();
+        a.subir();
+        a.subir();
+        a.subir();
+        a.mostrarInformacionSintonizador();
+
+        SintonizadorFM b = new SintonizadorFM(80.05);
+        b.bajar();
+        b.bajar();
+        b.bajar();
+        b.mostrarInformacionSintonizador();
+
+        a = new SintonizadorFM(200);
+        a.mostrarInformacionSintonizador();
     }
 }

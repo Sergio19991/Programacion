@@ -1,4 +1,4 @@
-package com.sergiobejaranoarroyo.Tarea1_Incompleto;
+package com.sergiobejaranoarroyo.Tarea1_INCOMPLETO_HechoEnClase;
 
 public class CuentaCorriente {
     private double saldo;
