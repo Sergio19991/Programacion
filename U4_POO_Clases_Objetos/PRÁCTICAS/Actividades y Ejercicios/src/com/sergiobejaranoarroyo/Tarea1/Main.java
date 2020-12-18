@@ -114,5 +114,29 @@ public class Main {
 
         a = new SintonizadorFM(200);
         a.mostrarInformacionSintonizador();
+
+
+        System.out.println("* * * * * * * *");
+        System.out.println("* ACTIVIDAD 8 *");
+        System.out.println("* * * * * * * *");
+        Bombilla bombilla1 = new Bombilla();
+        Bombilla bombilla2 = new Bombilla();
+
+        bombilla1.enciende();
+        bombilla2.apaga();
+
+        System.out.println("Bombilla 1: " + bombilla1.muestraEstado());
+        System.out.println("Bombilla 2: " + bombilla2.muestraEstado());
+
+        Bombilla.interruptorGeneral = false;
+        System.out.println(" Cortamos la Luz General:");
+        System.out.println("Bombilla 1: " + bombilla1.muestraEstado());
+        System.out.println("Bombilla 2: " + bombilla2.muestraEstado());
+
+        Bombilla.interruptorGeneral = true;
+        System.out.println("Activamos la Luz General:");
+        System.out.println("Bombilla 1: " + bombilla1.muestraEstado());
+        System.out.println("Bombilla 2: " + bombilla2.muestraEstado());
+        System.out.println(" ");
     }
 }
