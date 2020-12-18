@@ -1,5 +1,7 @@
 package com.sergiobejaranoarroyo.Tarea1;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("* * * * * * * *");
@@ -138,5 +140,34 @@ public class Main {
         System.out.println("Bombilla 1: " + bombilla1.muestraEstado());
         System.out.println("Bombilla 2: " + bombilla2.muestraEstado());
         System.out.println(" ");
+
+
+        System.out.println("* * * * * * * *");
+        System.out.println("* ACTIVIDAD 10 *");
+        System.out.println("* * * * * * * *");
+        Scanner sc = new Scanner(System.in);
+        Hora h = new Hora();
+        int valor;
+        int numeroSegundos;
+
+        System.out.println("Introduce una Hora:");
+        valor = sc.nextInt();
+        h.setHora(valor);
+
+        System.out.println("Introduce un Minuto:");
+        valor = sc.nextInt();
+        h.setMinuto(valor);
+
+        System.out.println("Introduce un Segundo:");
+        valor = sc.nextInt();
+        h.setSegundo(valor);
+
+        System.out.println("¿Cuántos Segundos quieres mostrar?:");
+        numeroSegundos = sc.nextInt();
+
+        for (int i = 0; i < numeroSegundos; i++) {
+            System.out.println(h.getHora() + ":" + h.getMinuto() + ":" + h.getSegundo());
+            h.incrementarSegundo();
+        }
     }
 }

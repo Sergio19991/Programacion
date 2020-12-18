@@ -1,6 +1,9 @@
 package com.sergiobejaranoarroyo.Tarea1.maquinaria;
 
 public class Vagon {
+    /**
+     * ACTIVIDAD 9
+     **/
     int capacidadMaxima;
     int getCapacidadMinima;
     String mercancia;

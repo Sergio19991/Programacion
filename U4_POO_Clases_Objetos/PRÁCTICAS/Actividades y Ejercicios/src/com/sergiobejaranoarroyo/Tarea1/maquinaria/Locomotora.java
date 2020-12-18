@@ -3,6 +3,9 @@ package com.sergiobejaranoarroyo.Tarea1.maquinaria;
 import com.sergiobejaranoarroyo.Tarea1.personal.Mecanico;
 
 public class Locomotora {
+    /**
+     * ACTIVIDAD 9
+     **/
     String matricula;
     int potencia;
     int anoFabricacion;

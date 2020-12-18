@@ -3,6 +3,9 @@ package com.sergiobejaranoarroyo.Tarea1.maquinaria;
 import com.sergiobejaranoarroyo.Tarea1.personal.Maquinista;
 
 public class Tren {
+    /**
+     * ACTIVIDAD 9
+     **/
     Locomotora locomotora;
     Vagon vagones[];
     Maquinista responsable;

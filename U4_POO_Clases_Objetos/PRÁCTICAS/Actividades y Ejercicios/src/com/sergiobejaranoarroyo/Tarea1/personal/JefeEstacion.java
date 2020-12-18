@@ -1,6 +1,9 @@
 package com.sergiobejaranoarroyo.Tarea1.personal;
 
 public class JefeEstacion {
+    /**
+     * ACTIVIDAD 9
+     **/
     String nombre;
     String dni;
 

@@ -1,6 +1,9 @@
 package com.sergiobejaranoarroyo.Tarea1.personal;
 
 public class Maquinista {
+    /**
+     * ACTIVIDAD 9
+     **/
     String nombre;
     String dni;
     String sueldo;
