@@ -22,7 +22,7 @@ public class Lista {
         return numeroElementos;
     }
 
-    boolean listaLlena() {
+    public boolean listaLlena() {
         return numeroElementos == tabla.length;
     }
 
@@ -39,7 +39,7 @@ public class Lista {
         numeroElementos++;
     }
 
-    void insertarFinal(Integer nuevo) {
+    public void insertarFinal(Integer nuevo) {
         if (listaLlena()) {
             tabla = Arrays.copyOf(tabla, tabla.length + 10);
         }
@@ -79,7 +79,7 @@ public class Lista {
         return insertado;
     }
 
-    Integer eliminar(int inidice) {
+    public Integer eliminar(int inidice) {
         Integer eliminado = null;
 
         if (inidice >= 0 && inidice < numeroElementos) {
@@ -95,7 +95,7 @@ public class Lista {
         return eliminado;
     }
 
-    Integer get(int indice) {
+    public Integer get(int indice) {
         Integer resultado = null;
 
         if (indice >= 0 && indice < numeroElementos) {
