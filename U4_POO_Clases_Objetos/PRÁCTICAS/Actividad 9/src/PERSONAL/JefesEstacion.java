@@ -24,4 +24,12 @@ public class JefesEstacion {
     public void setDni(String dni) {
         this.dni = dni;
     }
+
+    @Override
+    public String toString() {
+        return "JefesEstacion{" +
+                "nombre='" + nombre + '\'' +
+                ", dni='" + dni + '\'' +
+                '}';
+    }
 }

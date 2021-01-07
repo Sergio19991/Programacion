@@ -38,4 +38,13 @@ public class Mecanicos {
     public void setEspecialidad(String especialidad) {
         this.especialidad = especialidad;
     }
+
+    @Override
+    public String toString() {
+        return "Mecanicos{" +
+                "nombreCompleto='" + nombreCompleto + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", especialidad='" + especialidad + '\'' +
+                '}';
+    }
 }

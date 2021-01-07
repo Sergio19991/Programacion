@@ -44,4 +44,14 @@ public class Maquinistas {
     public void setRango(String rango) {
         this.rango = rango;
     }
+
+    @Override
+    public String toString() {
+        return "Maquinistas{" +
+                "nombre='" + nombre + '\'' +
+                ", dni='" + dni + '\'' +
+                ", sueldo=" + sueldo +
+                ", rango='" + rango + '\'' +
+                '}';
+    }
 }
