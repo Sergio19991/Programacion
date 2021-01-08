@@ -1,8 +1,8 @@
-package com.primeraParte;
+package com.sergiobejaranoarroyo;
 
 import java.util.Scanner;
 
-public class Ejercicio6 {
+public class ejercicio6RecuperacionTrimestre1 {
     public static void main(String[] args) {
         long num;
         Scanner sc = new Scanner(System.in);
