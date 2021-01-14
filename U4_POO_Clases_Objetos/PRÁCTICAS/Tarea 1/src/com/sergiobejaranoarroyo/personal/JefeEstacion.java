@@ -1,6 +1,6 @@
 package com.sergiobejaranoarroyo.personal;
 
-public class JefeEstacion {
+public class  JefeEstacion {
     private String nombreCompleto;
     private String dni;
 

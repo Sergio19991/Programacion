@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8f95de7-01e1-4bad-a973-7727f46d01a0" name="Default Changelist" comment="" />
+    <list default="true" id="c8f95de7-01e1-4bad-a973-7727f46d01a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Clase (14-01-2021)/src/com/sergiobejaranoarroyo/Ejercicio7_1/personas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase (08-01-2021)/Clase (08-01-2021).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase (14-01-2021)/Clase (14-01-2021).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 1/Tarea 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea 2/Tarea 2.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
