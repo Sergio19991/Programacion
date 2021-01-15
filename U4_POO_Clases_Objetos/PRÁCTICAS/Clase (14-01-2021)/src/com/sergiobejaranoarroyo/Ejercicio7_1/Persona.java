@@ -1,20 +1,30 @@
 package com.sergiobejaranoarroyo.Ejercicio7_1;
 
 public class Persona {
-    String nombreCompleto;
+    String nombre;
+    String apellidos;
     String dni;
 
-    public Persona(String nmobreCompleto, String dni) {
-        this.nombreCompleto = nmobreCompleto;
+    public Persona(String nombre, String apellidos, String dni) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
         this.dni = dni;
     }
 
-    public String getNmobreCompleto() {
-        return nombreCompleto;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setNmobreCompleto(String nmobreCompleto) {
-        this.nombreCompleto = nmobreCompleto;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
     }
 
     public String getDni() {
@@ -27,14 +37,8 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
-                "nmobreCompleto='" + nombreCompleto + '\'' +
-                ", dni='" + dni + '\'' +
-                '}';
-    }
-
-    public String getDatos() {
-        return nombreCompleto;
-        return dni;
+        return "{Nombre: " + nombre + "\n" +
+                "Apellidos: " + apellidos + "\n" +
+                "DNI: " + dni + "}\n";
     }
 }
