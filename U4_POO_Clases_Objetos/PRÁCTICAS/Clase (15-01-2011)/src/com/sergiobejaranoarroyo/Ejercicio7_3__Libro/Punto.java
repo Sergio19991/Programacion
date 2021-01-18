@@ -43,13 +43,8 @@ public class Punto {
     }
 
     double distanciaEuclidea(Punto otro) {
-        double dx = 0, dy = 0;
+        double resultado = Math.sqrt(Math.pow(otro.getComponenteX() * componenteX, 2) + Math.pow(otro.getComponenteY() - componenteY, 2));
 
-        if (otro == null) {
-            this.componenteX = dx - otro.componenteX;
-            this.componenteY = dy - otro.componenteY;
-        }
-
-        return Math.sqrt(Math.pow(componenteX, 2) + Math.pow(componenteY, 2));
+        return resultado;
     }
 }
