@@ -1,51 +1,56 @@
 package com.sergiobejaranoarroyo;
 
 public class Hora {
-    protected Integer hora;
-    protected Integer min;
+    /*****************/
+    /** ACTIVIDAD 1 **/
+    /*****************/
 
-    public Hora(Integer hora, Integer min) {
-        if (hora < 0 || hora > 24 || min > 59 || min < 0) {
-            this.hora = 12;
-            this.min = 0;
-        } else {
-            this.hora = hora;
-            this.min = min;
-        }
+    protected int hora;
+    protected int minutos;
+
+    public Hora(int hora, int minutos) {
+        this.hora = 0;
+        this.minutos = 0;
     }
 
-    public Hora() {
-        this(12, 0);
-    }
-
-    public Integer getHora() {
+    public int getHora() {
         return hora;
     }
 
-    public void setHora(Integer hora) {
-        if (hora >= 0 && hora <= 23) {
+    public void setHora(int hora) {
+        if (0 <= hora && hora < 24) {
             this.hora = hora;
         }
     }
 
-    public Integer getMin() {
-        return min;
+    public int getMinutos() {
+        return minutos;
     }
 
-    public void setMin(Integer min) {
-        if (min >= 0 && min <= 59) {
-            this.min = min;
+    public void setMinutos(int minutos) {
+        if (0 <= minutos && minutos < 60) {
+            this.minutos = minutos;
         }
     }
 
     public void inc() {
-        min++;
+        minutos++;
 
-        if (min > 59) {
+        if (minutos > 59) {
+            minutos = 0;
+
             hora++;
-            min = 0;
 
-            if (hora > 23) hora = 0;
+            if (hora > 23) {
+                hora = 0;
+            }
         }
+    }
+
+    @Override
+    public String toString() {
+        String result;
+        result = hora + ":" + minutos;
+        return result;
     }
 }

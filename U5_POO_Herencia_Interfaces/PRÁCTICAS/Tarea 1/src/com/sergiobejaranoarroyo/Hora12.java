@@ -1,64 +1,46 @@
 package com.sergiobejaranoarroyo;
 
 public class Hora12 extends Hora {
-    String franja;
+    /*****************/
+    /** ACTIVIDAD 2 **/
+    /*****************/
 
-    public Hora12(Integer hora, Integer min) {
-        /*if (hora > 12 || hora < 0 || min < 0 || min > 59) {
-            this.hora = 12;
-            this.min = 0;
-            this.franja = "pm";
-        } else {
-            this.hora = hora;
-            this.min = min;
-            this.franja = franja;
-        }*/
+    public enum Meridiano {AM, PM}
 
-        this.franja = franja;
-    }
+    protected Meridiano mer;
 
-    public String getFranja() {
-        return franja;
-    }
-
-    public void setFranja(String franja) {
-        this.franja = franja;
+    public Hora12(int hora, int minutos, Meridiano mer) {
+        super(hora, minutos);
+        setHora(hora);
+        this.mer = mer;
     }
 
     @Override
-    public void setHora(Integer hora) {
-        if (hora >= 0 && hora <= 12) {
+    public void setHora(int hora) {
+        if (1 <= hora && hora <= 12) {
             this.hora = hora;
         }
     }
 
     @Override
     public void inc() {
-        min++;
-        hora++;
-        if (min > 59) {
-            hora++;
-            min = 0;
+        super.inc();
 
-        } else {
-            min++;
+        if (hora > 12) {
+            hora = 1;
+
+            mer = mer == Meridiano.AM ? Meridiano.PM : Meridiano.AM;
         }
+    }
 
-        hora=0;
-        min=0;
+    @Override
+    public String toString() {
+        String result;
 
-        if (hora < 12 && min > 59) {
-            min++;
-            hora = 0;
-        } else {
-            hora++;
-        }
+        result = super.toString();
 
+        result += " " + mer;
 
-        if ((franja="pm" && hora=11)||(franja="am" && hora=11) || (franja="pm" && hora=12)) {
-            
-        }
-
-        if ()
+        return result;
     }
 }

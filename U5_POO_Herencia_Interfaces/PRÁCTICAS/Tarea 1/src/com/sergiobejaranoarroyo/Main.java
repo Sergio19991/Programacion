@@ -1,17 +1,32 @@
 package com.sergiobejaranoarroyo;
 
 public class Main {
-
     public static void main(String[] args) {
-        Hora h = new Hora(23, 59);
-        h.inc();
-        System.out.println(h);
+        /*****************/
+        /** ACTIVIDAD 1 **/
+        /*****************/
+        Hora h1 = new Hora(23, 59);
+        h1.inc();
+        System.out.println(h1);
 
-        Hora12 h2 = new Hora12(12, 59);
-        h2.inc();
-        h2.inc();
-        h2.inc();
-        h2.inc();
-        System.out.println(h2.getHora() + ":" + h2.getMin());
+        System.out.println();
+
+
+        /*****************/
+        /** ACTIVIDAD 2 **/
+        /*****************/
+        Hora12 hh1 = new Hora12(12, 59, Hora12.Meridiano.AM);
+        hh1.inc();
+        System.out.println(hh1);
+        System.out.println();
+
+
+        /*****************/
+        /** ACTIVIDAD 3 **/
+        /*****************/
+        HoraExacta he1 = new HoraExacta(23, 59, 59);
+        he1.inc();
+        System.out.println(he1);
+        System.out.println();
     }
 }
