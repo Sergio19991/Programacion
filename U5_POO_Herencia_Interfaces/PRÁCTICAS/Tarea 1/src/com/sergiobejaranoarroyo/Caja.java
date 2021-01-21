@@ -1,38 +1,39 @@
 package com.sergiobejaranoarroyo;
 
 public class Caja {
-    final double ancho;
-    final double alto;
-    final double fondo;
-    protected String destinatario;
-    Unidades u;
+    /*****************/
+    /** ACTIVIDAD 7 **/
+    /*****************/
 
-    public Caja(double ancho, double alto, double fondo, String destinatario, Unidades u) {
+    public enum Unidad {CM, M}
+
+    protected final double ancho, alto, fondo;
+    protected final Unidad unid;
+    protected double volumen;
+    public String etiqueta;
+
+    public Caja(double ancho, double alto, double fondo, Unidad unid) {
         this.ancho = ancho;
         this.alto = alto;
         this.fondo = fondo;
-        this.destinatario = destinatario;
-        this.u = u;
+        this.unid = unid;
+
+        switch (unid) {
+            case CM:
+                volumen = (ancho / 100) * (alto / 100) * (fondo / 100);
+                break;
+            case M:
+                volumen = ancho * alto * fondo;
+                break;
+        }
     }
 
-    public double getAncho() {
-        return ancho;
-    }
-
-    public double getAlto() {
-        return alto;
-    }
-
-    public double getFondo() {
-        return fondo;
-    }
-
-    double getVolumen() {
-        return this.ancho * this.alto * this.fondo;
+    public double getVolumen() {
+        return volumen;
     }
 
     @Override
     public String toString() {
-        return "DIMENSIONES; Alto: " + alto + ", Ancho: " + ancho + ", Fondo: " + fondo + ", Volumen: " + getVolumen();
+        return ancho + "X" + alto + "X" + fondo + " " + unid.toString() + "\n" + etiqueta;
     }
 }
