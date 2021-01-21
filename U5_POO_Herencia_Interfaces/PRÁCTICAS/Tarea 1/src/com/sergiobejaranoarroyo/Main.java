@@ -28,5 +28,14 @@ public class Main {
         he1.inc();
         System.out.println(he1);
         System.out.println();
+
+
+
+
+        /*****************/
+        /** ACTIVIDAD 7 **/
+        /*****************/
+        Caja c1 = new Caja(4.2, 6.3, 7.9, "yo", Unidades.CM);
+        System.out.println(c1);
     }
 }

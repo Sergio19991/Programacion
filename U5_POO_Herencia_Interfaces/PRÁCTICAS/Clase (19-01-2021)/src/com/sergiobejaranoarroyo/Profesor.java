@@ -1,5 +1,7 @@
 package com.sergiobejaranoarroyo;
 
+import java.util.Objects;
+
 public class Profesor extends Persona {
     private String nss;
     private String asignatura;
@@ -26,5 +28,18 @@ public class Profesor extends Persona {
     @Override
     public void gritar() {
         System.out.println("El Profesor no GRITA");
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Profesor profesor = (Profesor) o;
+        return Objects.equals(nss, profesor.nss) && Objects.equals(asignatura, profesor.asignatura);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nss, asignatura);
     }
 }
