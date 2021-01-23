@@ -79,5 +79,20 @@ public class Main {
         System.out.println(cajaB);
         System.out.println("Volumen: " + cajaB.getVolumen());
         System.out.println();
+
+
+        System.out.println("***************");
+        System.out.println("* ACTIVIDAD 8 *");
+        System.out.println("***************");
+        Caja cajA = new CajaCarton(100, 200, 200);
+        cajA.etiqueta = "Dirección envío:";
+        System.out.println(cajA);
+        System.out.println("Volumen: " + cajA.getVolumen());
+
+        CajaCarton cajB = new CajaCarton(50.6, 75.5, 100);
+        cajB.etiqueta = 23;
+        System.out.println(cajB);
+        System.out.println("Volumen: " + cajB.getVolumen());
+        System.out.println();
     }
 }
