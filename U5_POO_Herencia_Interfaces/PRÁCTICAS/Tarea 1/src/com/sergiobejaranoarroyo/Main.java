@@ -98,5 +98,11 @@ public class Main {
         System.out.println(cajB);
         System.out.println("Volumen: " + cajB.getVolumen());
         System.out.println();
+
+
+        System.out.println("***************");
+        System.out.println("* ACTIVIDAD 9 *");
+        System.out.println("***************");
+        System.out.println();
     }
 }
