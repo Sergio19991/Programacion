@@ -11,7 +11,7 @@ public class CajaCarton extends Caja {
 
     CajaCarton(double ancho, double alto, double fondo) {
         super(ancho, alto, fondo, Unidad.CM);
-        area = 2 * (ancho * alto + ancho * fondo + alto * fondo);
+        area = 2 * ((ancho * alto) + (ancho * fondo) + (alto * fondo));
         cartonTotal += area;
     }
 

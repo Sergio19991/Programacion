@@ -84,11 +84,15 @@ public class Main {
         System.out.println("***************");
         System.out.println("* ACTIVIDAD 8 *");
         System.out.println("***************");
+        System.out.println("Caja A:");
         Caja cajA = new CajaCarton(100, 200, 200);
         cajA.etiqueta = "Dirección envío:";
         System.out.println(cajA);
         System.out.println("Volumen: " + cajA.getVolumen());
 
+        System.out.println();
+
+        System.out.println("Caja B:");
         CajaCarton cajB = new CajaCarton(50.6, 75.5, 100);
         cajB.etiqueta = 23;
         System.out.println(cajB);

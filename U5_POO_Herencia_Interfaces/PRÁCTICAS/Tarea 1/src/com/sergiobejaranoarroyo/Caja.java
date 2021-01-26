@@ -34,6 +34,6 @@ public class Caja {
 
     @Override
     public String toString() {
-        return ancho + "X" + alto + "X" + fondo + " " + unid.toString() + "\n" + etiqueta;
+        return "ANCHO: " +ancho + ", ALTO: " + alto + ", FONDO: " + fondo + " " + unid.toString() + "\n" + etiqueta;
     }
 }
