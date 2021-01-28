@@ -15,8 +15,8 @@ public class Terminal {
         this.numero = numero;
     }
 
-    public void llama() {
-
+    public void llama(Terminal terminal, int segundos) {
+        System.out.println("El Terminal " + terminal + " ha realizado una llamada de " + segundos + " Segundos.");
     }
 
     @Override
