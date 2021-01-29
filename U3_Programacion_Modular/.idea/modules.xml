@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PRACTICAS/PRACTICAS.iml" filepath="$PROJECT_DIR$/PRACTICAS/PRACTICAS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/U3_Programacion_Modular.iml" filepath="$PROJECT_DIR$/U3_Programacion_Modular.iml" />
+    </modules>
+  </component>
+</project>

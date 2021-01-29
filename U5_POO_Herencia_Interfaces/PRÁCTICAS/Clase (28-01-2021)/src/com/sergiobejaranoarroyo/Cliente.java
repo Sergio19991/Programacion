@@ -2,25 +2,18 @@ package com.sergiobejaranoarroyo;
 
 import java.util.Objects;
 
-public class Cliente implements Comparable {
-    protected int dni;
-    protected String nombre;
-    protected int edad;
-    protected int saldo;
+public class Cliente implements Comparable<Cliente> {
 
-    public Cliente(int dni, String nombre, int edad, int saldo) {
-        this.dni = dni;
+    private String nombre;
+    private String dni;
+    private Integer edad;
+    private double saldo;
+
+    public Cliente(String nombre, String dni, int edad, double saldo) {
         this.nombre = nombre;
+        this.dni = dni;
         this.edad = edad;
         this.saldo = saldo;
-    }
-
-    public int getDni() {
-        return dni;
-    }
-
-    public void setDni(int dni) {
-        this.dni = dni;
     }
 
     public String getNombre() {
@@ -31,6 +24,14 @@ public class Cliente implements Comparable {
         this.nombre = nombre;
     }
 
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
     public int getEdad() {
         return edad;
     }
@@ -39,50 +40,26 @@ public class Cliente implements Comparable {
         this.edad = edad;
     }
 
-    public int getSaldo() {
+    public double getSaldo() {
         return saldo;
     }
 
-    public void setSaldo(int saldo) {
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-
 
     @Override
     public String toString() {
         return "Cliente{" +
-                "dni=" + dni +
-                ", nombre='" + nombre + '\'' +
-                ", edad=" + edad +
-                ", saldo=" + saldo +
+                "nombre='" + nombre + '\n' +
+                ", dni='" + dni + '\n' +
+                ", edad=" + edad + '\n' +
+                ", saldo=" + saldo + '\n' +
                 '}';
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Cliente cliente = (Cliente) o;
-        return dni == cliente.dni && edad == cliente.edad && saldo == cliente.saldo && nombre.equals(cliente.nombre);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(dni, nombre, edad, saldo);
-    }
-
-    @Override
-    public int compareTo(Object o) {
-        int resultado;
-
-        if (dni < ((Cliente) o).dni) {
-            resultado = -1;
-        } else if (dni > ((Cliente) o).dni) {
-            resultado = 1;
-        } else {
-            resultado = 0;
-        }
-
-        return resultado;
+    public int compareTo(Cliente o) {
+        return edad-o.edad;
     }
 }
