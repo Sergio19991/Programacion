@@ -1,6 +1,10 @@
 package com.sergiobejaranoarroyo;
 
 public class Circulo implements Figura {
+    /*****************/
+    /** ACTIVIDAD 3 **/
+    /*****************/
+
     private double radio;
 
     public Circulo(double radio) {

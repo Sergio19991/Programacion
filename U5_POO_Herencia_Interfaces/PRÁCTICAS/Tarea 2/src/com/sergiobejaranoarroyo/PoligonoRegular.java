@@ -1,6 +1,10 @@
 package com.sergiobejaranoarroyo;
 
 public abstract class PoligonoRegular implements Figura {
+    /*****************/
+    /** ACTIVIDAD 3 **/
+    /*****************/
+
     protected double lado;
     public Color color;
     private static int contadorPoligonos = 0;

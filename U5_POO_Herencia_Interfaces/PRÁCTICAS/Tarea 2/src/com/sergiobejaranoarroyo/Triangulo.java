@@ -1,6 +1,10 @@
 package com.sergiobejaranoarroyo;
 
 public class Triangulo extends PoligonoRegular {
+    /*****************/
+    /** ACTIVIDAD 3 **/
+    /*****************/
+
     private double altura;
 
     public Triangulo(double lado, Color color) {

@@ -1,6 +1,9 @@
 package com.sergiobejaranoarroyo;
 
 public class Cuadrado extends PoligonoRegular {
+    /*****************/
+    /** ACTIVIDAD 3 **/
+    /*****************/
 
     public Cuadrado(double lado, Color color) {
         super(lado, color);
