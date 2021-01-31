@@ -1,6 +1,10 @@
 package com.sergiobejaranoarroyo;
 
 public class Terminal {
+    /*****************/
+    /** EJERCICIO 8 **/
+    /*****************/
+
     protected String numero;
 
     public Terminal(String numero) {
@@ -15,8 +19,8 @@ public class Terminal {
         this.numero = numero;
     }
 
-    public void llama(Terminal terminal, int segundos) {
-        System.out.println("El Terminal " + terminal + " ha realizado una llamada de " + segundos + " Segundos.");
+    public void llama(Terminal numero, double segundos) {
+        System.out.println("El Termina " + numero + " ha realizado una llamada de " + segundos + " Segundos.");
     }
 
     @Override
