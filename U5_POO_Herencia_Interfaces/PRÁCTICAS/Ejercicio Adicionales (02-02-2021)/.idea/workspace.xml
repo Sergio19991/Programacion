@@ -2,35 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39662fd9-44b5-409c-905c-f2686881626a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Bucles con do-while/Bucles con do-while.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Bucles con do-while/Bucles con do-while.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Bucles con for/Bucles con for.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Bucles con for/Bucles con for.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Bucles con while/Bucles con while.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Bucles con while/Bucles con while.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Entregable_1920/Entregable_1920.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Entregable_1920/Entregable_1920.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Entregable_2021/Entregable_2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Entregable_2021/Entregable_2021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Examen/Examen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Examen/Examen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Operaciones matemáticas básicas/Operaciones matemáticas básicas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Operaciones matemáticas básicas/Operaciones matemáticas básicas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Practicando para el Examen/Practicando para el Examen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Practicando para el Examen/Practicando para el Examen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Proyectos con IntelliJ/Proyectos con IntelliJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Proyectos con IntelliJ/Proyectos con IntelliJ.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 2/Tarea 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 2/Tarea 2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 3/Tarea 3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 3/Tarea 3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 4/Tarea 4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 4/Tarea 4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 5/Tarea 5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 5/Tarea 5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 6/Tarea 6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 6/Tarea 6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 7/Tarea 7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 7/Tarea 7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 8/Tarea 8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 8/Tarea 8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 8b/Tarea 8b.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 8b/Tarea 8b.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 9/Tarea 9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U2_Programacion_Estructurada/PRÁCTICAS/Tarea 9/Tarea 9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Ameba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Bicicleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Publicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Revista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/TarjetaRegalo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Vehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1ntU0YmfMgfqHI6Lxbge213KzNc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -90,6 +93,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.sergiobejaranoarroyo.Main" />
@@ -101,6 +107,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -123,5 +134,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
