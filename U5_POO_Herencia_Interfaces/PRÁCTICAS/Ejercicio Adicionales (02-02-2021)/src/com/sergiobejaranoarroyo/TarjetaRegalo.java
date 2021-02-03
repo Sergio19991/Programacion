@@ -1,43 +1,50 @@
 package com.sergiobejaranoarroyo;
 
+import java.text.DecimalFormat;
+
 public class TarjetaRegalo {
     /*****************/
     /** EJERCICIO 3 **/
     /*****************/
 
-    protected double dinero;
-    protected int numero;
+    String numero;
+    double saldo;
 
-    public TarjetaRegalo(double dinero, int numero) {
-        this.dinero = dinero;
-        this.numero = numero;
-    }
+    public TarjetaRegalo(double saldo) {
+        this.saldo = saldo;
 
-    public double getDinero() {
-        return dinero;
-    }
-
-    public void setDinero(double dinero) {
-        this.dinero = dinero;
-    }
-
-    public int getNumero() {
-        return numero;
-    }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
-
-    public void gasta(double dineroGastar) {
-    }
-
-    public void fusionaCon(double fusionar) {
-
+        this.numero = "";
+        for (int i = 0; i < 5; i++) {
+            this.numero += (int) (Math.random() * 10);
+        }
     }
 
     @Override
     public String toString() {
-        return "Tarjeta no " + numero + " - " + "Saldo " + dinero + "€";
+        DecimalFormat dosDecimales = new DecimalFormat("0.00");
+        return "Tarjeta nº " + numero + " - Saldo " + dosDecimales.format(saldo) + "€";
+    }
+
+    void gasta(double gasto) {
+        if (gasto > saldo) {
+            System.out.printf("No tiene suficiente saldo para gastar %.2f€\n", gasto);
+        } else {
+            saldo -= gasto;
+        }
+    }
+
+    TarjetaRegalo fusionaCon(TarjetaRegalo t) {
+        double nuevoSaldo = this.getSaldo() + t.getSaldo();
+        this.setSaldo(0);
+        t.setSaldo(0);
+        return new TarjetaRegalo(nuevoSaldo);
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public double getSaldo() {
+        return saldo;
     }
 }

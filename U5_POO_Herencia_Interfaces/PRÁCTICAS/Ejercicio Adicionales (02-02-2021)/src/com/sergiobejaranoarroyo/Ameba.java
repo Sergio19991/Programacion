@@ -4,25 +4,20 @@ public class Ameba {
     /*****************/
     /** EJERCICIO 2 **/
     /*****************/
-    protected int peso;
+
+    int peso;
 
     public Ameba() {
         this.peso = 3;
     }
 
-    public Ameba(int peso) {
-        this.peso = 3;
+    void come(int pesoComida) {
+        this.peso += pesoComida - 1;
     }
 
-    public int getPeso() {
-        return peso;
-    }
-
-    public void setPeso(int peso) {
-        this.peso = peso;
-    }
-
-    public void come(int comida) {
+    void come(Ameba a) {
+        this.peso += a.peso - 1;
+        a.peso = 0;
     }
 
     @Override

@@ -1,28 +1,37 @@
 package com.sergiobejaranoarroyo;
 
-public class Libro extends Publicacion {
+public class Libro extends Publicacion implements Prestable {
     /*****************/
     /** EJERCICIO 4 **/
     /*****************/
 
-    private String autor;
+    private boolean prestado = false;
 
-    public Libro(String nombre, String editorial, String autor) {
-        super(nombre, editorial);
-        this.autor = autor;
+    public Libro(String isbn, String titulo, int anio) {
+        super(isbn, titulo, anio);
     }
 
-    public String getAutor() {
-        return autor;
+    @Override
+    public void presta() {
+        if (this.prestado) {
+            System.out.println("Lo siento, ese libro ya está prestado.");
+        } else {
+            this.prestado = true;
+        }
     }
 
-    public void setAutor(String autor) {
-        this.autor = autor;
+    @Override
+    public void devuelve() {
+        this.prestado = false;
     }
 
-    //Modificar para que incluya los atributos del padre
     @Override
     public String toString() {
-        return "Libro [autor=" + autor + "]";
+        return super.toString() + " (" + (this.prestado ? "prestado" : "no prestado") + ")";
+    }
+
+    @Override
+    public boolean estaPrestado() {
+        return this.prestado;
     }
 }

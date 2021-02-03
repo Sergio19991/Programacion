@@ -5,46 +5,25 @@ public class Vehiculo {
     /** EJERCICIO 1 **/
     /*****************/
 
-    protected int vehiculosCreados;
-    protected int kilometrosTotales;
-    protected int kilometrosRecorridos;
+    private static int kilometrosTotales = 0;
+    private static int vehiculosCreados = 0;
+    private int kilometrosRecorridos;
 
-    public Vehiculo(int vehiculosCreados, int kilometrosTotales, int kilometrosRecorridos) {
-        this.vehiculosCreados = vehiculosCreados;
-        this.kilometrosTotales = kilometrosTotales;
-        this.kilometrosRecorridos = kilometrosRecorridos;
-    }
-
-    public int getVehiculosCreados() {
-        return vehiculosCreados;
-    }
-
-    public void setVehiculosCreados(int vehiculosCreados) {
-        this.vehiculosCreados = vehiculosCreados;
-    }
-
-    public int getKilometrosTotales() {
-        return kilometrosTotales;
-    }
-
-    public void setKilometrosTotales(int kilometrosTotales) {
-        this.kilometrosTotales = kilometrosTotales;
+    public Vehiculo() {
+        this.kilometrosRecorridos = 0;
     }
 
     public int getKilometrosRecorridos() {
-        return kilometrosRecorridos;
+        return this.kilometrosRecorridos;
     }
 
-    public void setKilometrosRecorridos(int kilometrosRecorridos) {
-        this.kilometrosRecorridos = kilometrosRecorridos;
+    public static int getKilometrosTotales() {
+        return Vehiculo.kilometrosTotales;
     }
 
-    @Override
-    public String toString() {
-        return "Vehiculo{" +
-                "vehiculosCreados=" + vehiculosCreados +
-                ", kilometrosTotales=" + kilometrosTotales +
-                ", kilometrosRecorridos=" + kilometrosRecorridos +
-                '}';
+
+    public void recorre(int k) {
+        this.kilometrosRecorridos += k;
+        Vehiculo.kilometrosTotales += k;
     }
 }
