@@ -2,30 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39662fd9-44b5-409c-905c-f2686881626a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Prestable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase (04-02-2021)/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase (04-02-2021)/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase (04-02-2021)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase (04-02-2021)/src/com/sergiobejaranoarroyo/Ameba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase (04-02-2021)/src/com/sergiobejaranoarroyo/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase (04-02-2021)/src/com/sergiobejaranoarroyo/Prestable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase (04-02-2021)/src/com/sergiobejaranoarroyo/Publicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase (04-02-2021)/src/com/sergiobejaranoarroyo/Revista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U5 - POO. Herencia. Interfaces (1920 - Mañana)/src/com/sergiobejaranoarroyo/Aereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U5 - POO. Herencia. Interfaces (1920 - Mañana)/src/com/sergiobejaranoarroyo/Terrestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U5 - POO. Herencia. Interfaces (1920 - Mañana)/src/com/sergiobejaranoarroyo/Vehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U5 - POO. Herencia. Interfaces (1920 - Mañana)/src/com/sergiobejaranoarroyo/ejercicio1/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U5 - POO. Herencia. Interfaces (1920 - Mañana)/src/com/sergiobejaranoarroyo/ejercicio1/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U5 - POO. Herencia. Interfaces (1920 - Mañana)/src/com/sergiobejaranoarroyo/ejercicio1/Tipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U5 - POO. Herencia. Interfaces (1920 - Mañana)/src/com/sergiobejaranoarroyo/ejercicio1/Vehiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Ameba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Ameba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Biblioteca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Bicicleta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Bicicleta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Coche.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Coche.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Libro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Publicacion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Revista.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/TarjetaRegalo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/TarjetaRegalo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Vehiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicio Adicionales (02-02-2021)/com/sergiobejaranoarroyo/Vehiculo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Ameba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Ameba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Biblioteca.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Bicicleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Bicicleta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Coche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Publicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Publicacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Revista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Revista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/TarjetaRegalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/TarjetaRegalo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sergiobejaranoarroyo/Vehiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
