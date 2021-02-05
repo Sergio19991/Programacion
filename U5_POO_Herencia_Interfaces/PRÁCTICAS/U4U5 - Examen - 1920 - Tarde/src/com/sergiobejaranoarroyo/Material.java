@@ -1,6 +1,6 @@
 package com.sergiobejaranoarroyo;
 
-public class Material {
+public abstract class Material implements Comparable {
     protected String nombre;
     protected int masa;
     protected int capacidadQuemarse;
@@ -53,5 +53,19 @@ public class Material {
 
     public void setMovible(boolean movible) {
         this.movible = movible;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return getMasa() - ((Material) o).getMasa();
+    }
+
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + "\n" +
+                "Masa: " + masa + "\n" +
+                "Capacidad de Quemarse: " + capacidadQuemarse + "\n" +
+                "Capacidad de Diluirse: " + capacidadDiluirse + "\n" +
+                "¿Es Movible? " + movible;
     }
 }
