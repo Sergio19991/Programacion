@@ -1,0 +1,4 @@
+
+ Este es el Fichero "original.txt" para la Actividad3.
+
+ Sergio Bejarano Arroyo

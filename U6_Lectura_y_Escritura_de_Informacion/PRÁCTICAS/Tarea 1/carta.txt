@@ -1,0 +1,4 @@
+
+ Este es el Fichero "carta.txt" para la Actividad4.
+
+ Sergio Bejarano Arroyo
