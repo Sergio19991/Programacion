@@ -6,80 +6,73 @@ import java.util.Scanner;
 public class Actividad6 {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
+        String firma;
+        String opcion = "";
 
-        System.out.println("1. Mostrar Libro de Firmas.");
-        System.out.println("2. Añadir Nombre.");
-        System.out.println();
-        System.out.print("Introduce una Opción: ");
-        int opcion = sc.nextInt();
-        sc.nextLine();
-        System.out.println();
 
-        switch (opcion) {
-            case 1:
-                muestraFicheroFirma();
-                break;
-            case 2:
-                System.out.println("Introduce el Nombre:");
-                String nombre = sc.nextLine();
-                insertarNuevaFirma(nombre);
-                break;
+        while (!opcion.equals("FIN")) {
+            mostrarMenu();
+            opcion = sc.nextLine();
+            if (opcion.equals("1")) {
+                mostrarFichero("firmas.txt");
+            } else if (opcion.equals("2")) {
+                System.out.println("Introduce el nombre a firmar");
+                firma = sc.nextLine();
+                if (!estaNombre(firma, "firmas.txt")) {
+                    try {
+                        BufferedWriter bw = new BufferedWriter(new FileWriter("firmas.txt", true));
+                        bw.write(firma + "\n");
+                        bw.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
+                } else {
+                    System.out.println("Ese nombre ya esta");
+                }
+            }
         }
+
+
     }
 
-    static void muestraFicheroFirma() throws IOException {
-        try {
-            BufferedReader entr = new BufferedReader(new FileReader("firmas.txt"));
-            String linea = entr.readLine();
+    public static void mostrarMenu() {
+        System.out.println("1- Mostrar Libro");
+        System.out.println("2- Insertar firma");
+        System.out.println("3- Fin");
+        System.out.println("Seleccion opción:");
+    }
 
+    public static void mostrarFichero(String nombre) {
+
+        try {
+            BufferedReader bin = new BufferedReader(new FileReader(nombre));
+            String linea = bin.readLine();
             while (linea != null) {
                 System.out.println(linea);
-                linea = entr.readLine();
+                linea = bin.readLine();
             }
-
-            entr.close();
-        } catch (EOFException eof) {
-            System.out.println("Error de Fichero.");
-        } catch (FileNotFoundException fnf) {
-            System.out.println("No se encuentra el Fichero.");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+        System.out.println("---------------------------");
     }
 
-    static void insertarNuevaFirma(String nuevo) throws IOException {
+    public static boolean estaNombre(String nombre, String fichero) {
+
         try {
-            BufferedReader entr = new BufferedReader(new FileReader("firmas.txt"));
-
-            String nombre = entr.readLine();
-
-            boolean encontrado = false;
-
-            while (nombre != null && encontrado == false) {
-                if (nombre.equals(nuevo)) {
-                    encontrado = true;
+            BufferedReader bin = new BufferedReader(new FileReader(fichero));
+            String linea = bin.readLine();
+            while (linea != null) {
+                if (linea.equals(nombre)) {
+                    return true;
                 }
-
-                nombre = entr.readLine();
+                linea = bin.readLine();
             }
-
-            entr.close();
-
-            if (encontrado == false) {
-                BufferedWriter firma = new BufferedWriter(new FileWriter("firmas.txt", true));
-
-                firma.newLine();
-
-                firma.write(nuevo);
-
-                System.out.println("\nNuevo Nombre insertado.");
-
-                firma.close();
-            } else {
-                System.out.println("\nYa había Firmado.");
-            }
-        } catch (EOFException eof) {
-            System.out.println("Error de Fichero.");
-        } catch (FileNotFoundException fnf) {
-            System.out.println("No se encuentra el Fichero.");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+
+        return false;
     }
 }

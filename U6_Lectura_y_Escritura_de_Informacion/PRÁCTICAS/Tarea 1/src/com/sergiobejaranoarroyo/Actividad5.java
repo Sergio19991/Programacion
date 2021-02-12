@@ -1,37 +1,38 @@
 package com.sergiobejaranoarroyo;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.*;
+
 
 public class Actividad5 {
-    public static void main(String[] args) throws Exception {
-        BufferedReader entr1 = new BufferedReader(new FileReader("numeros.txt"));
+    public static void main(String[] args) {
+        int menor = 0, mayor = 0;
+        String linea;
+        boolean priemeraLinea = true;
 
-        String cifra = entr1.readLine();
+        try {
+            BufferedReader bin = new BufferedReader(new FileReader("numeros.txt"));
 
-        int numero = Integer.valueOf(cifra);
-        int maximo = numero;
-        int minimo = numero;
+            linea = bin.readLine();
+            while (linea != null) {
+                int numero = Integer.valueOf(linea);
 
-        cifra = entr1.readLine();
+                if (priemeraLinea) {
+                    menor = numero;
+                    mayor = numero;
+                    priemeraLinea = false;
+                } else {
+                    if (numero > mayor) mayor = numero;
+                    if (numero < menor) menor = numero;
+                }
 
-        while (cifra != null) {
-            numero = Integer.valueOf(cifra);
-
-            if (numero > maximo) {
-                maximo = numero;
+                linea = bin.readLine();
             }
 
-            if (numero < minimo) {
-                minimo = numero;
-            }
-
-            cifra = entr1.readLine();
+            bin.close();
+            System.out.println("MAYOR: " + mayor);
+            System.out.println("MENOR: " + menor);
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
         }
-
-        entr1.close();
-
-        System.out.println("MAYOR: " + maximo);
-        System.out.println("MENOR: " + minimo);
     }
 }
