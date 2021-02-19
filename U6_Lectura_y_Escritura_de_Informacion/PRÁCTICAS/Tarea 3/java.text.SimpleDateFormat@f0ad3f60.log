@@ -1,0 +1,2 @@
+java.text.SimpleDateFormat@f0ad3f60 - EX001 - class com.sergiobejaranoarroyo.Actividad2.EdadErroneaException: Imposible crear el usuario con dni null. La edad mo puede ser negativa 
+(Edad indicada: 0).
