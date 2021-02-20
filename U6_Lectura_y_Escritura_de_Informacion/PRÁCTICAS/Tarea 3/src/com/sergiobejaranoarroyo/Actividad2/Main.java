@@ -10,57 +10,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        /** Estableciendo una Variable para la fecha ("fecha") y su formato  (fechaHora = "HH:mm:ss - dd/MM/yyyy"): **/
         Date fecha = new Date();
         DateFormat fechaHora = new SimpleDateFormat("HH:mm:ss dd/MM/yyyy");
-        System.out.println(fechaHora);
-        System.out.println(fecha);
+
         String error = "";
 
         String nombre, apellidos, dni = null;
-        int edad = 0;/*
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Introduce los Datos:");
-        System.out.print("Nombre: ");
-        nombre = sc.nextLine();
-        System.out.print("Apellidos: ");
-        apellidos = sc.nextLine();
-        System.out.print("Edad: ");
-        edad = sc.nextInt();
-        System.out.print("DNI: ");
-        dni = sc.nextLine();
+        int edad = 0;
 
-        try {
-            Cliente cliente = new Cliente(nombre, apellidos, edad, dni);
-        } catch (EdadErroneaException e) {
-            e.printStackTrace();
-
-            try {
-                BufferedWriter out = new BufferedWriter(new FileWriter(fechaHora + ".log"));
-                String error = fechaHora + " - EX001 - " + e.getClass() + ": Imposible crear el usuario con dni " + dni + ". La edad mo puede ser negativa " + "\n" + "(Edad indicada: " + edad + ").";
-                for (int i = 0; i < error.length(); i++) {
-                    out.write(error.charAt(i));
-                }
-                out.close();
-            } catch (IOException ioException) {
-                ioException.getMessage();
-            }
-
-        } catch (MenorEdadException e) {
-            e.printStackTrace();
-
-            try {
-                BufferedWriter out = new BufferedWriter(new FileWriter(fechaHora + ".log"));
-                String error = fechaHora + " - EX001 - " + e.getClass() + ": Imposible crear el usuario con dni " + dni + ". La edad mo puede ser negativa " + "\n" + "(Edad indicada: " + edad + ").";
-                for (int i = 0; i < error.length(); i++) {
-                    out.write(error.charAt(i));
-                }
-                out.close();
-            } catch (IOException ioException) {
-                ioException.printStackTrace();
-            }
-        }*/
-
-
+        /** CLIENTE 1: **/
         try {
             Cliente cliente1 = new Cliente("CLIENTE 1", "APELLIDOS 1", 20, "132465978-A");
         } catch (EdadErroneaException e) {
@@ -89,10 +48,11 @@ public class Main {
             } catch (IOException ioException) {
                 ioException.printStackTrace();
             }
-            error = fechaHora + " - EX001 - " + e.getClass() + ": Imposible crear el usuario con dni " + dni + ". La edad mo puede ser negativa " + "\n" + "(Edad indicada: " + edad + ").";
+            error = fechaHora + " - EX002 - " + e.getClass() + ": Imposible crear el usuario con dni " + dni + ". La edad mo puede ser negativa " + "\n" + "(Edad indicada: " + edad + ").";
             e.printStackTrace();
         }
 
+        /** CLIENTE 2: **/
         try {
             Cliente cliente2 = new Cliente("CLIENTE 2", "APELLIDOS 2", 110, "978465321-B");
         } catch (EdadErroneaException e) {
@@ -122,9 +82,10 @@ public class Main {
             } catch (IOException ioException) {
                 ioException.printStackTrace();
             }
-            error = fechaHora + " - EX001 - " + e.getClass() + ": Imposible crear el usuario con dni " + dni + ". La edad mo puede ser negativa " + "\n" + "(Edad indicada: " + edad + ").";
+            error = fechaHora + " - EX002 - " + e.getClass() + ": Imposible crear el usuario con dni " + dni + ". La edad mo puede ser negativa " + "\n" + "(Edad indicada: " + edad + ").";
         }
 
+        /** CLIENTE 3: **/
         try {
             Cliente cliente3 = new Cliente("CLIENTE 3", "APELLIDOS 3", 12, "465789132-C");
         } catch (EdadErroneaException e) {
@@ -154,7 +115,7 @@ public class Main {
             } catch (IOException ioException) {
                 ioException.printStackTrace();
             }
-            error = fechaHora + " - EX001 - " + e.getClass() + ": Imposible crear el usuario con dni " + dni + ". La edad mo puede ser negativa " + "\n" + "(Edad indicada: " + edad + ").";
+            error = fechaHora + " - EX002 - " + e.getClass() + ": Imposible crear el usuario con dni " + dni + ". La edad mo puede ser negativa " + "\n" + "(Edad indicada: " + edad + ").";
         }
 
     }
