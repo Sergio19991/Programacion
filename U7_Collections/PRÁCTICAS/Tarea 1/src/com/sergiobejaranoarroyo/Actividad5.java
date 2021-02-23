@@ -1,24 +1,25 @@
 package com.sergiobejaranoarroyo;
 
 import java.util.Comparator;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Actividad5 {
     public static void main(String[] args) {
-        LinkedHashSet<Integer> listaAleatorios = new LinkedHashSet<>();
+        Set<Integer> listaAleatorios = new TreeSet<>(new ordenDecreciente());
 
-        for (int i = 0; i < 20; i++) {
-            listaAleatorios.add((int) (Math.random() * 100));
-            listaAleatorios.stream().min (new Comparator<Integer>() {
-                @Override
-                public int compare(Integer o1, Integer o2) {
-                    return o1 - o2;
-                }
-            });
+        while (listaAleatorios.size() < 20) {
+            Integer aleatorio = (int) (Math.random() * 100);
+            listaAleatorios.add(aleatorio);
+        }
 
-            System.out.println(listaAleatorios);
+        System.out.println(listaAleatorios);
+    }
+
+    static class ordenDecreciente implements Comparator {
+        @Override
+        public int compare(Object o1, Object o2) {
+            return (Integer) o2 - (Integer) o1;
         }
     }
 }
