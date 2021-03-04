@@ -15,6 +15,15 @@ public class Actividad15 {
         l.add(17);
         l.add(9);
 
-        l.insertarOrdenada(l);
+        l.insertarOrdenada(3);
+        l.insertarOrdenada(19);
+        l.insertarOrdenada(21);
+        l.insertarOrdenada(15);
+        l.insertarOrdenada(4);
+        l.insertarOrdenada(8);
+        l.insertarOrdenada(16);
+        l.insertarOrdenada(2);
+        l.insertarOrdenada(17);
+        l.insertarOrdenada(9);
     }
 }

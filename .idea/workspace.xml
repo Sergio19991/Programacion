@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc41cde-bf06-4f2d-9810-7ca2d5fb2b8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/U5_POO_Herencia_Interfaces/PRÁCTICAS/Examen 1920 (Turno Mañana)/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Clase (04-03-2021)/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Clase (04-03-2021)/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Clase (04-03-2021)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2/src/com/sergiobejaranoarroyo/Actividad16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2/src/com/sergiobejaranoarroyo/Traductor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2/traductor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 3/src/com/sergiobejaranoarroyo/Actividad1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 3/src/com/sergiobejaranoarroyo/Actividad2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 3/src/com/sergiobejaranoarroyo/Actividad3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2/out/production/Tarea 2/com/sergiobejaranoarroyo/Actividad15.class" beforeDir="false" afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2/out/production/Tarea 2/com/sergiobejaranoarroyo/Actividad15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2/out/production/Tarea 2/com/sergiobejaranoarroyo/CompareCadenas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2/out/production/Tarea 2/com/sergiobejaranoarroyo/EnterosDecrecientes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2/out/production/Tarea 2/com/sergiobejaranoarroyo/ListaOrdenada.class" beforeDir="false" afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2/out/production/Tarea 2/com/sergiobejaranoarroyo/ListaOrdenada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2/src/com/sergiobejaranoarroyo/Actividad15.java" beforeDir="false" afterPath="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2/src/com/sergiobejaranoarroyo/Actividad15.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/U7_Collections/PRÁCTICAS/Tarea 2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,5 +57,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
