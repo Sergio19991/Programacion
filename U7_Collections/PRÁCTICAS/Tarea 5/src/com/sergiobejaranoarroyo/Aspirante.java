@@ -1,44 +1,38 @@
 package com.sergiobejaranoarroyo;
 
-public class Aspirante {
-    private String nombre;
-    private String dni;
-    private String telefono;
+import java.io.Serializable;
 
-    public Aspirante(String nombre, String dni, String telefono) {
-        this.nombre = nombre;
-        this.dni = dni;
-        this.telefono = telefono;
-    }
+public class Aspirante implements Comparable, Serializable {
+    private String nombre;
+    private String DNI;
+    private String telefono;
+    private Double media;
 
     public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public String getDNI() {
+        return DNI;
+    }
+
+    public Double getMedia() {
+        return media;
+    }
+
+    public void setMedia(Double media) {
+        this.media = media;
+    }
+
+    public Aspirante(String nombre, String DNI, String telefono) {
         this.nombre = nombre;
-    }
-
-    public String getDni() {
-        return dni;
-    }
-
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
-
-    public String getTelefono() {
-        return telefono;
-    }
-
-    public void setTelefono(String telefono) {
+        this.DNI = DNI;
         this.telefono = telefono;
     }
 
     @Override
-    public String toString() {
-        return "Nombre: " + nombre + "\n" +
-                "DNI: " + dni + "\n" +
-                "Teléfono: " + telefono;
+    public int compareTo(Object o) {
+        Aspirante e = (Aspirante) o;
+        return this.nombre.compareTo(e.nombre);
     }
 }
