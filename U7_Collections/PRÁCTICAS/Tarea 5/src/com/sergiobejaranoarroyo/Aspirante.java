@@ -2,37 +2,50 @@ package com.sergiobejaranoarroyo;
 
 import java.io.Serializable;
 
-public class Aspirante implements Comparable, Serializable {
+public class Aspirante implements Serializable {
     private String nombre;
-    private String DNI;
-    private String telefono;
-    private Double media;
+    private String dni;
+    private String phone;
+    private int id;
+    private static int idAspirante = 0;
+
+    public Aspirante(String nombre, String dni, String phone) {
+        this.nombre = nombre;
+        this.dni = dni;
+        this.phone = phone;
+        this.id = Aspirante.idAspirante;
+        Aspirante.idAspirante++;
+    }
 
     public String getNombre() {
         return nombre;
     }
 
-    public String getDNI() {
-        return DNI;
-    }
-
-    public Double getMedia() {
-        return media;
-    }
-
-    public void setMedia(Double media) {
-        this.media = media;
-    }
-
-    public Aspirante(String nombre, String DNI, String telefono) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
-        this.DNI = DNI;
-        this.telefono = telefono;
     }
 
-    @Override
-    public int compareTo(Object o) {
-        Aspirante e = (Aspirante) o;
-        return this.nombre.compareTo(e.nombre);
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
