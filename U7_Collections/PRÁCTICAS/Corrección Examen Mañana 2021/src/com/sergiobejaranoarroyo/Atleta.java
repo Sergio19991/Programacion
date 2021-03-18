@@ -1,21 +1,23 @@
 package com.sergiobejaranoarroyo;
 
-public class Atleta implements Comparable {
+import java.io.Serializable;
+
+public class Atleta implements Comparable<Atleta>, Serializable {
     private String nombre;
     private String pais;
     private Integer tiempo;
     private boolean finisher;
     private int dorsal;
-    private Categorias categoria;
-    private static int numeroAtletas = 1;
+    private Categoria categoria;
+    private static int numAtletas = 1;
 
-    public Atleta(String nombre, String pais, Categorias categoria) {
+    public Atleta(String nombre, String pais, Categoria categoria) {
         this.nombre = nombre;
         this.pais = pais;
         this.categoria = categoria;
         this.finisher = false;
-        this.dorsal = Atleta.numeroAtletas;
-        Atleta.numeroAtletas++;
+        this.dorsal = Atleta.numAtletas;
+        Atleta.numAtletas++;
     }
 
     public String getNombre() {
@@ -58,29 +60,34 @@ public class Atleta implements Comparable {
         this.dorsal = dorsal;
     }
 
-    public Categorias getCategoria() {
+    public Categoria getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(Categorias categoria) {
+    public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
 
     @Override
     public String toString() {
-        return "Atleta{" +
-                "nombre='" + nombre + '\'' +
-                ", pais='" + pais + '\'' +
-                ", tiempo=" + tiempo +
-                ", finisher=" + finisher +
-                ", dorsal=" + dorsal +
-                ", categoria=" + categoria +
-                '}';
+        return "Nombre: " + nombre + "\n" +
+                "País: " + pais + "\n" +
+                "Tiempo: " + tiempo + "\n" +
+                "¿Finisher?: " + finisher + "\n" +
+                "Número del Dorsal: " + dorsal + "\n" +
+                "Categoría: " + categoria;
     }
 
     @Override
-    public int compareTo(Object o) {
-        Atleta a1 = (Atleta) o;
-        return this.tiempo - a1.getTiempo();
+    public int compareTo(Atleta o) {
+        return this.tiempo - o.getTiempo();
+    }
+
+    public static int getNumAtletas() {
+        return numAtletas;
+    }
+
+    public static void setNumAtletas(int numAtletas) {
+        Atleta.numAtletas = numAtletas;
     }
 }
