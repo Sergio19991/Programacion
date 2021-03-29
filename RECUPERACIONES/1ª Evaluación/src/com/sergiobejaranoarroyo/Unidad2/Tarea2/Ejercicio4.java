@@ -12,7 +12,7 @@ public class Ejercicio4 {
         int millas = sc.nextInt();
         System.out.println();
 
-        int equivalencia = millas*metros;
+        int equivalencia = millas * metros;
 
         System.out.println(millas + " millas = " + equivalencia + " m");
     }

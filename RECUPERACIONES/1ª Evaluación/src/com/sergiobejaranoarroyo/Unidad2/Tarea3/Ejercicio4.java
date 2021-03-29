@@ -12,7 +12,7 @@ public class Ejercicio4 {
         float millas = sc.nextInt();
         System.out.println();
 
-        float equivalencia = millas*metros;
+        float equivalencia = millas * metros;
 
         System.out.println(millas + " millas = " + equivalencia + " m");
     }
