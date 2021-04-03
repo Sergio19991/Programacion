@@ -2,7 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc41cde-bf06-4f2d-9810-7ca2d5fb2b8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Entregable1920/Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea6/ENUNCIADOS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea6/Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea6/Ejercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea6/Ejercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea6/Ejercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea6/Ejercicio5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea7/ENUNCIADOS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea7/Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea7/Ejercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea7/Ejercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/ENUNCIADOS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8/Ejercicio9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/ENUNCIADOS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/Ejercicio10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/Ejercicio11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/Ejercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/Ejercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/Ejercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/Ejercicio5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/Ejercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/Ejercicio7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/Ejercicio8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea8b/Ejercicio9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea9/Actividad1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea9/Actividad2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea9/Actividad3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea9/Actividad4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea9/Actividad5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RECUPERACIONES/1ª Evaluación/src/com/sergiobejaranoarroyo/Unidad2/Tarea9/ENUNCIADOS.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
