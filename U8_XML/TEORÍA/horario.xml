@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<horario>
+
+    <dia nombre="lunes">
+        <tramo horaInicio="08:00" horaFin="09:00">Sistemas Informáticos</tramo>
+        <tramo horaInicio="09:00" horaFin="10:00">Bases de Datos</tramo>
+        <tramo horaInicio="10:00" horaFin="11:00">Bases de Datos</tramo>
+        <tramo horaInicio="11:00" horaFin="11:30">RECRÉO</tramo>
+        <tramo horaInicio="11:30" horaFin="12:30">Entornos de Desarrollo</tramo>
+        <tramo horaInicio="12:30" horaFin="13:30">Formación y Orientación Laboral</tramo>
+        <tramo horaInicio="13:30" horaFin="14:30">Formación y Orientación Laboral</tramo>
+    </dia>
+
+    <dia nombre="martes">
+        <tramo horaInicio="08:00" horaFin="09:00">Formación y Orientación Laboral</tramo>
+        <tramo horaInicio="09:00" horaFin="10:00">Sistemas Informáticos</tramo>
+        <tramo horaInicio="10:00" horaFin="11:00">Lenguajes de Marcas y Sistemas de Gestión de Información</tramo>
+        <tramo horaInicio="11:00" horaFin="11:30">RECRÉO</tramo>
+        <tramo horaInicio="11:30" horaFin="12:30">Programación</tramo>
+        <tramo horaInicio="12:30" horaFin="13:30">Programación</tramo>
+        <tramo horaInicio="13:30" horaFin="14:30">Programación</tramo>
+    </dia>
+
+    <dia nombre="miércoles">
+        <tramo horaInicio="08:00" horaFin="09:00">Sistemas Informáticos</tramo>
+        <tramo horaInicio="09:00" horaFin="10:00">Sistemas Informáticos</tramo>
+        <tramo horaInicio="10:00" horaFin="11:00">Bases de Datos</tramo>
+        <tramo horaInicio="11:00" horaFin="11:30">RECRÉO</tramo>
+        <tramo horaInicio="11:30" horaFin="12:30">Entornos de Desarrollo</tramo>
+        <tramo horaInicio="12:30" horaFin="13:30">Entornos de Desarrollo</tramo>
+        <tramo horaInicio="13:30" horaFin="14:30">Lenguajes de Marcas y Sistemas de Gestión de Información</tramo>
+    </dia>
+
+    <dia nombre="jueves">
+        <tramo horaInicio="08:00" horaFin="09:00">Sistemas Informáticos</tramo>
+        <tramo horaInicio="09:00" horaFin="10:00">Sistemas Informáticos</tramo>
+        <tramo horaInicio="10:00" horaFin="11:00">Lenjuages de Marcas y Sistemas de Gestión de Información</tramo>
+        <tramo horaInicio="11:00" horaFin="11:30">RECRÉO</tramo>
+        <tramo horaInicio="11:30" horaFin="12:30">Programación</tramo>
+        <tramo horaInicio="12:30" horaFin="13:30">Programación</tramo>
+        <tramo horaInicio="13:30" horaFin="14:30">Programación</tramo>
+    </dia>
+
+    <dia nombre="viernes">
+        <tramo horaInicio="08:00" horaFin="09:00">Bases de Datos</tramo>
+        <tramo horaInicio="09:00" horaFin="10:00">Bases de Datos</tramo>
+        <tramo horaInicio="10:00" horaFin="11:00">Bases de Datos</tramo>
+        <tramo horaInicio="11:00" horaFin="11:30">RECRÉO</tramo>
+        <tramo horaInicio="11:30" horaFin="12:30">Lenjuages de Marcas y Sistemas de Gestión de Información</tramo>
+        <tramo horaInicio="12:30" horaFin="13:30">Programación</tramo>
+        <tramo horaInicio="13:30" horaFin="14:30">Programación</tramo>
+    </dia>
+
+</horario>
+
+
+
+
+
+<!-- © Sergio Bejarano Arroyo -->
