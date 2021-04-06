@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<personas>
+    <!-- Lista de Personas: -->
+
+    <persona dni="11111111A">
+        <nombre>Persona 1</nombre>
+        <apellidos>Apellidos 1</apellidos>
+        <direccion>Dirección 1</direccion>
+        <email>Email1@email.com</email>
+    </persona>
+
+    <persona dni="22222222B">
+        <nombre>Persona 2</nombre>
+        <apellidos>Apellidos 2</apellidos>
+        <direccion>Dirección 2</direccion>
+        <email>Email2@email.com</email>
+    </persona>
+
+    <persona dni="33333333C">
+        <nombre>Persona 3</nombre>
+        <apellidos>Apellidos 3</apellidos>
+        <direccion>Dirección 3</direccion>
+        <email>Email3@email.com</email>
+    </persona>
+
+    <persona dni="44444444D">
+        <nombre>Persona 4</nombre>
+        <apellidos>Apellidos 4</apellidos>
+        <direccion>Dirección 4</direccion>
+        <email>Email4@email.com</email>
+    </persona>
+</personas>
