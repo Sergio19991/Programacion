@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<horario>
+
+    <dia nombre="lunes">
+        <tramo>SIINF</tramo>
+        <tramo>BADAT</tramo>
+        <tramo>BADAT</tramo>
+        <tramo>ENDES</tramo>
+        <tramo>FOL</tramo>
+        <tramo>FOL</tramo>
+    </dia>
+    
+</horario>
