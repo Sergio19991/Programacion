@@ -5,22 +5,17 @@ import java.util.Scanner;
 public class Ejercicio1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int combinacionUsuario;
-        final int combinacionCajaFuerte = 1234;
-        final int intentos = 4;
+        int combinacionUsuario, combinacionCajaFuerte = 1234;
 
-        System.out.print("Introduce la combinación: ");
-        combinacionUsuario = sc.nextInt();
+        for (int i = 0; i < 4; i++) {
+            System.out.print("Introduce la Combinación de la Caja Fuerte: ");
+            combinacionUsuario = sc.nextInt();
 
-        for (int i = 0; i < 3; i++) {
             if (combinacionUsuario != combinacionCajaFuerte) {
-                System.out.println("Lo siento, esa no es la combinación" + "\n");
-                System.out.print("Introduce la combinación: ");
-                combinacionUsuario = sc.nextInt();
+                System.out.println("Lo siento, esa no es la combinacion");
                 System.out.println();
-                combinacionUsuario = sc.nextInt();
             } else {
-                System.out.println("   ¡¡¡   CAJA ABIERTA   !!!   ");
+                System.out.println("\nLa caja fuerte se ha abierto satisfactoriamente");
                 break;
             }
         }
