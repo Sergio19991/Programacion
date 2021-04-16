@@ -2,17 +2,24 @@ package com.sergiobejaranoarroyo.Unidad2.Tarea8b;
 
 import java.util.Scanner;
 
-public class Ejercicio2 {
+public class Ejercicio7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numero;
+        int retorno = 0;
+        int digito;
 
         System.out.print("Introduce un Número: ");
         numero = sc.nextInt();
         System.out.println();
 
-        for (int i = numero + 1; i <= numero + 5; i++) {
-            System.out.println("Número: " + i + "     Cuadrado: " + (int) (Math.pow(i, 2)) + "     Cubo: " + (int) (Math.pow(i, 3)));
+        while (numero > 0) {
+            digito = numero % 10;
+            numero = numero - digito;
+            numero = numero / 10;
+            retorno = retorno * 10 + digito;
         }
+
+        System.out.println(retorno);
     }
 }

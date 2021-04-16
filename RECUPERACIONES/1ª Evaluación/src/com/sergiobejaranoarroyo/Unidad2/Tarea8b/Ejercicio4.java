@@ -10,17 +10,17 @@ public class Ejercicio4 {
         int cantidadNegativos = 0;
 
         for (int i = 1; i <= 10; i++) {
-            System.out.print("Introduce un Número: ");
+            System.out.print("Introduce el Número: ");
             numero = sc.nextInt();
 
-            if (numero % 2 == 0) {
+            if (numero > 0) {
                 cantidadPositivos++;
             } else {
                 cantidadNegativos++;
             }
         }
 
-        System.out.println("\nCantidad de Positviso: " + cantidadPositivos + ".");
-        System.out.println("Cantidad de Negativos: " + cantidadNegativos + ".");
+        System.out.println("\nCantidad de Positivos: " + cantidadPositivos);
+        System.out.println("Cantidad de Negativos: " + cantidadNegativos);
     }
 }
