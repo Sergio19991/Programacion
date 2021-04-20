@@ -15,7 +15,7 @@ public class Main {
         try {
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
-            Document doc = db.parse(new File("personas.xml"));
+            Document doc = db.parse(new File("asignaturas.xml"));
 
             Element root = doc.getDocumentElement();
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<asignaturas>
+
+    <asignatura>
+        <nombre>BADAT</nombre>
+        <profesor>Teresa</profesor>
+    </asignatura>
+
+    <asignatura>
+        <nombre>ENDES</nombre>
+        <profesor>Reyes</profesor>
+    </asignatura>
+
+    <asignatura>
+        <nombre>FOL</nombre>
+        <profesor>Julio</profesor>
+    </asignatura>
+
+    <asignatura>
+        <nombre>LMSGI</nombre>
+        <profesor>Juan Diego</profesor>
+    </asignatura>
+
+    <asignatura>
+        <nombre>PROGR</nombre>
+        <profesor>Juan Diego</profesor>
+    </asignatura>
+
+    <asignatura>
+        <nombre>SIINF</nombre>
+        <profesor>Santiago</profesor>
+    </asignatura>
+
+</asignaturas>
+
+
+
+
+
+<!-- © Sergio Bejarano Arroyo -->
