@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<horario>
+
+    <dia nombre="lunes">
+        <asignatura id="1">SIINF</asignatura>
+        <asignatura id="2">BADAT</asignatura>
+        <asignatura id="3">BADAT</asignatura>
+        <asignatura id="4">ENDES</asignatura>
+        <asignatura id="5">FOL</asignatura>
+        <asignatura id="6">FOL</asignatura>
+    </dia>
+
+    <dia nombre="martes">
+        <asignatura id="1">FOL</asignatura>
+        <asignatura id="2">SIINF</asignatura>
+        <asignatura id="3">LMSGI</asignatura>
+        <asignatura id="4">PROGR</asignatura>
+        <asignatura id="5">PROGR</asignatura>
+        <asignatura id="6">PROGR</asignatura>
+    </dia>
+
+    <dia nombre="miércoles">
+        <asignatura id="1">SIINF</asignatura>
+        <asignatura id="2">SIINF</asignatura>
+        <asignatura id="3">BADAT</asignatura>
+        <asignatura id="4">ENDES</asignatura>
+        <asignatura id="5">ENDES</asignatura>
+        <asignatura id="6">LMSGI</asignatura>
+    </dia>
+
+    <dia nombre="jueves">
+        <asignatura id="1">SIINF</asignatura>
+        <asignatura id="2">SIINF</asignatura>
+        <asignatura id="3">LMSGI</asignatura>
+        <asignatura id="4">PROGR</asignatura>
+        <asignatura id="5">PROGR</asignatura>
+        <asignatura id="6">PROGR</asignatura>
+    </dia>
+
+    <dia nombre="viernes">
+        <asignatura id="1">BADAT</asignatura>
+        <asignatura id="2">BADAT</asignatura>
+        <asignatura id="3">BADAT</asignatura>
+        <asignatura id="4">LMSGI</asignatura>
+        <asignatura id="5">PROGR</asignatura>
+        <asignatura id="6">PROGR</asignatura>
+    </dia>
+
+</horario>
+
+
+
+
+
+<!-- © Sergio Bejarano Arroyo -->
